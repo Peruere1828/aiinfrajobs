@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://peruere1828.github.io/aiinfrajobs/sitemap.xml

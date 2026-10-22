@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Infra 实习机会</title>
+  <meta name="description" content="AI Infra 实习机会：2028 届 · 本科 · 推理优化 / AI 编译器 / 世界模型。官方渠道核实的 AI Infra 实习岗位，覆盖 LLM 推理优化、AI 编译器、世界模型 / VLA / VLM。">
+  <meta property="og:title" content="AI Infra 实习机会">
+  <meta property="og:description" content="2028 届 · 本科 · 推理优化 / AI 编译器 / 世界模型 · 数据更新 2026-10-22 21:47">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://peruere1828.github.io/aiinfrajobs/">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%232563eb'/><text x='50' y='68' font-size='48' text-anchor='middle' fill='white' font-family='monospace'>AI</text></svg>">
+  <link rel="stylesheet" href="assets/style.css?v=202610221347">
+</head>
+<body data-base="" data-page="index">
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">AI</span>
+        <span class="brand-text">
+          <strong>AI Infra 实习机会</strong>
+          <small>2028 届 · 本科 · 官方渠道</small>
+        </span>
+      </a>
+      <nav class="site-nav">
+        <a href="index.html#jobs">岗位</a>
+        <a href="companies/index.html">公司</a>
+        <a href="index.html#timeline">时间线</a>
+        <a href="https://github.com/Peruere1828/aiinfrajobs" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+      <span class="update-badge" title="数据构建时间">更新 2026-10-22</span>
+    </div>
+  </header>
+
+  <main>
+<section class="hero wrap">
+  <div class="hero-copy">
+    <p class="eyebrow">2028 届 · 本科可投 · 官方渠道核实</p>
+    <h1>把 AI Infra 实习机会<br><span>整理成一张可筛选的清单</span></h1>
+    <p class="hero-sub">
+      聚焦 <strong>① LLM 推理优化</strong>、<strong>② AI 编译器开发</strong>、<strong>③ 世界模型 / VLA / VLM 推理优化</strong>。
+      每条岗位保留官网直链、学历门槛、届别与最近更新时间。
+    </p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#jobs">浏览岗位</a>
+      <a class="btn ghost" href="#featured-section">先看 Top 推荐</a>
+    </div>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><strong>148</strong><span>在招岗位</span></div>
+    <div class="stat"><strong>148</strong><span>本科可投</span></div>
+    <div class="stat"><strong>146</strong><span>2028 届对口</span></div>
+    <div class="stat"><strong>33</strong><span>家公司</span></div>
+  </div>
+</section>
+
+<section class="wrap jobs-section" id="jobs">
+  <div class="filter-panel" id="filter-panel">
+    <div class="search-row">
+      <label class="search-box">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="search-input" type="search" placeholder="搜索岗位 / 公司 / 技能，如 vLLM、MLIR" autocomplete="off">
+      </label>
+      <button class="btn ghost small" id="reset-filters" type="button">清除筛选</button>
+    </div>
+
+    <div class="filter-row direction-row" role="group" aria-label="方向筛选">
+      <span class="filter-label">方向</span>
+      <button class="dir-chip" data-dir="inference" type="button" aria-pressed="false"><b>①</b> LLM 推理优化</button>
+      <button class="dir-chip" data-dir="compiler" type="button" aria-pressed="false"><b>②</b> AI 编译器</button>
+      <button class="dir-chip" data-dir="world" type="button" aria-pressed="false"><b>③</b> 世界模型 / VLA / VLM</button>
+    </div>
+
+    <div class="filter-row">
+      <label class="filter-field">
+        <span class="filter-label">学历</span>
+        <select id="degree-select">
+          <option value="">全部学历</option>
+          <option value="bachelor">本科明确可投</option>
+          <option value="master">硕士门槛</option>
+          <option value="phd">博士门槛</option>
+          <option value="unknown">未标注</option>
+        </select>
+      </label>
+      <label class="filter-field">
+        <span class="filter-label">届别</span>
+        <select id="grad-select">
+          <option value="">全部届别</option>
+          <option value="2028">2028 届 / 不限</option>
+          <option value="2027">2027 届</option>
+          <option value="unlimited">在校生 / 不限</option>
+        </select>
+      </label>
+      <label class="filter-field">
+        <span class="filter-label">批次</span>
+        <select id="batch-select">
+          <option value="">全部批次</option>
+          <option value="日常实习">日常实习</option>
+          <option value="暑期实习">暑期实习</option>
+          <option value="寒假实习">寒假实习</option>
+          <option value="ByteIntern">ByteIntern</option>
+          <option value="青云计划">青云计划</option>
+          <option value="Seed">Seed</option>
+          <option value="TGT">TGT</option>
+          <option value="可灵">可灵</option>
+        </select>
+      </label>
+      <label class="filter-field">
+        <span class="filter-label">城市</span>
+        <select id="city-select"><option value="">全部城市</option></select>
+      </label>
+      <label class="filter-field">
+        <span class="filter-label">状态</span>
+        <select id="state-select">
+          <option value="active">在招</option>
+          <option value="all">在招 + 跟踪 / 排除</option>
+          <option value="tracking">跟踪</option>
+          <option value="phd">博士门槛</option>
+          <option value="excluded">排除</option>
+        </select>
+      </label>
+      <label class="filter-field">
+        <span class="filter-label">排序</span>
+        <select id="sort-select">
+          <option value="match">匹配度优先</option>
+          <option value="updated">最近更新</option>
+          <option value="company">公司名称</option>
+        </select>
+      </label>
+    </div>
+
+    <div class="filter-row toggles-row">
+      <label class="toggle"><input id="bachelor-toggle" type="checkbox"> 只看本科可投</label>
+      <label class="toggle"><input id="y2028-toggle" type="checkbox"> 只看 2028 届对口</label>
+      <label class="toggle"><input id="featured-toggle" type="checkbox"> 只看首推 / 高匹配</label>
+      <span class="result-count" id="result-count">—</span>
+    </div>
+  </div>
+
+  <section class="featured-section" id="featured-section">
+    <div class="section-head">
+      <div>
+        <p class="section-kicker">TOP PICKS</p>
+        <h2>最适合先投的岗位</h2>
+      </div>
+      <p class="section-note">按方向匹配、本科可投、2028 届对口与人工精选排序</p>
+    </div>
+    <div class="featured-grid" id="featured-list"></div>
+  </section>
+
+  <div class="list-head" id="job-list-head">
+    <div>
+      <h2>全部岗位</h2>
+      <p id="active-filter-summary" class="active-filter-summary"></p>
+    </div>
+    <span class="list-count" id="list-count"></span>
+  </div>
+  <div class="job-list" id="job-list"></div>
+  <div class="empty-state" id="empty-state" hidden>
+    <strong>没有匹配的岗位</strong>
+    <p>试试减少筛选条件，或清除关键词。</p>
+  </div>
+</section>
+
+<section class="wrap section-block" id="companies">
+  <div class="section-head">
+    <div>
+      <p class="section-kicker">COMPANIES</p>
+      <h2>按公司浏览</h2>
+    </div>
+    <a class="text-link" href="companies/index.html">完整公司索引 →</a>
+  </div>
+  <div class="company-grid">
+        <a class="company-card" href="companies/bytedance.html">
+          <span class="company-card-top">
+            <strong>字节跳动</strong>
+            <span class="company-count">11 在招</span>
+          </span>
+          <span class="company-en">ByteDance</span>
+          <span class="company-positioning">国内 LLM 推理与 AI 编译器岗位最密集的互联网巨头，Seed、Data AML、火山方舟与 AI 芯片团队覆盖 vLLM/SGLang、CUDA 算子、KV Cache/PD …</span>
+          <span class="company-card-meta">
+<em>11 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/tencent.html">
+          <span class="company-card-top">
+            <strong>腾讯</strong>
+            <span class="company-count">9 在招</span>
+          </span>
+          <span class="company-en">Tencent</span>
+          <span class="company-positioning">青云计划-实习生开放 357 个课题，混元 AI Infra、腾讯云与微信技术架构在 LLM 推理框架、算子与 AI 编译器上均有对口课题；本科可投的「跨平台大模型计算基础设施」是最佳入口。</span>
+          <span class="company-card-meta">
+<em>9 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/alibaba.html">
+          <span class="company-card-top">
+            <strong>阿里巴巴</strong>
+            <span class="company-count">12 在招</span>
+          </span>
+          <span class="company-en">Alibaba</span>
+          <span class="company-positioning">研究型 + 日常实习批次覆盖方向①推理引擎/算子/KV Cache 与方向②编译优化，方向③集中在视频生成/世界模型/VLA 推理加速；本科或未标注可投 12 条。</span>
+          <span class="company-card-meta">
+<em>12 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/kuaishou.html">
+          <span class="company-card-top">
+            <strong>快手</strong>
+            <span class="company-count">13 在招</span>
+          </span>
+          <span class="company-en">Kuaishou</span>
+          <span class="company-positioning">可灵 AI 带来密集的视频生成/多模态推理系统岗位，覆盖推理框架、Model Serving、GPU 调度与 AIGC 推理引擎，多个岗位明确本科可投。</span>
+          <span class="company-card-meta">
+<em>13 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/jd.html">
+          <span class="company-card-top">
+            <strong>京东</strong>
+            <span class="company-count">10 在招</span>
+          </span>
+          <span class="company-en">JD.com</span>
+          <span class="company-positioning">TGT 顶尖青年技术实习生与 JD YOUNG 均开放大模型推理引擎、AI Infra、VLA/世界模型岗位，TGT 推理引擎方向最匹配 vLLM/CUDA 背景。</span>
+          <span class="company-card-meta">
+<em>10 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/xiaomi.html">
+          <span class="company-card-top">
+            <strong>小米</strong>
+            <span class="company-count">7 在招</span>
+          </span>
+          <span class="company-en">Xiaomi</span>
+          <span class="company-positioning">小米汽车/机器人团队大量开放世界模型、VLA 与部署优化实习，自研芯片方向的 AI Infra/编译器岗位最匹配 MLIR/CUDA 背景。</span>
+          <span class="company-card-meta">
+<em>7 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/meituan.html">
+          <span class="company-card-top">
+            <strong>美团</strong>
+            <span class="company-count">7 在招</span>
+          </span>
+          <span class="company-en">Meituan</span>
+          <span class="company-positioning">本地生活基座大模型与无人车团队均开放推理/世界模型实习，LongCat 推理工程师和基座大模型北斗实习最匹配 vLLM/CUDA 背景。</span>
+          <span class="company-card-meta">
+<em>7 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/huawei.html">
+          <span class="company-card-top">
+            <strong>华为</strong>
+            <span class="company-count">4 在招</span>
+          </span>
+          <span class="company-en">Huawei</span>
+          <span class="company-positioning">华为云算法创新 Lab 以邮箱直投开放昇腾算子、大模型推理与 AI 编译器实习；校招官网 2027 届实习生另有 AI Infra、空间智能岗位可跟踪。</span>
+          <span class="company-card-meta">
+<em>4 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/didi.html">
+          <span class="company-card-top">
+            <strong>滴滴</strong>
+            <span class="company-count">6 在招</span>
+          </span>
+          <span class="company-en">DiDi</span>
+          <span class="company-positioning">日常实习 648 条；云平台事业群大模型推理引擎岗本科可投（vLLM/TensorRT-LLM、GPU/NPU 算子、量化与图/编译优化），Voyager Labs 世界模型/VLA…</span>
+          <span class="company-card-meta">
+<em>6 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/baidu.html">
+          <span class="company-card-top">
+            <strong>百度</strong>
+            <span class="company-count">7 在招</span>
+          </span>
+          <span class="company-en">Baidu</span>
+          <span class="company-positioning">日常实习技术批次以方向①推理引擎、国产 GPU 推理、推理平台为主，方向③有 VLM 推理部署岗；本批次无独立 AI 编译器岗。</span>
+          <span class="company-card-meta">
+<em>7 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/netease.html">
+          <span class="company-card-top">
+            <strong>网易</strong>
+            <span class="company-count">2 在招</span>
+          </span>
+          <span class="company-en">NetEase</span>
+          <span class="company-positioning">伏羲机器人（杭州）VLA/具身智能实习为方向③主力，本科可投；方向①/②当前无独立实习岗。</span>
+          <span class="company-card-meta">
+<em>2 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/pdd.html">
+          <span class="company-card-top">
+            <strong>拼多多</strong>
+            <span class="company-count">0 在招</span>
+          </span>
+          <span class="company-en">PDD</span>
+          <span class="company-positioning">官网实习批次仅 2 个职能岗，三方向无在招实习；AI Infra 研发工程师为 2027 届校招全职，仅作方向跟踪。</span>
+          <span class="company-card-meta">
+          </span>
+        </a>
+        <a class="company-card" href="companies/ctrip.html">
+          <span class="company-card-top">
+            <strong>携程</strong>
+            <span class="company-count">0 在招</span>
+          </span>
+          <span class="company-en">Trip.com Group</span>
+          <span class="company-positioning">官网「留用实习生」批次暂未开启；当前 29 个实习岗集中在酒店/运营/财务/设计，无三方向技术实习。</span>
+          <span class="company-card-meta">
+          </span>
+        </a>
+        <a class="company-card" href="companies/minimax.html">
+          <span class="company-card-top">
+            <strong>MiniMax</strong>
+            <span class="company-count">8 在招</span>
+          </span>
+          <span class="company-en">MiniMax</span>
+          <span class="company-positioning">2028 届实习与日常实习双池，推理系统岗密集；RL Rollout 推理 serving 与推理框架实习直接对标 vLLM/SGLang/CUDA，是方向①的重点落点。</span>
+          <span class="company-card-meta">
+<em>8 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/moonshot.html">
+          <span class="company-card-top">
+            <strong>月之暗面</strong>
+            <span class="company-count">3 在招</span>
+          </span>
+          <span class="company-en">Moonshot AI</span>
+          <span class="company-positioning">官方校招板有 AI Infra 推理、高性能计算（CUDA 算子）实习，直接对标 vLLM/CUDA；校招正式岗覆盖推理框架与 LLM 推理优化。</span>
+          <span class="company-card-meta">
+<em>3 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/deepseek.html">
+          <span class="company-card-top">
+            <strong>DeepSeek</strong>
+            <span class="company-count">5 在招</span>
+          </span>
+          <span class="company-en">深度求索</span>
+          <span class="company-positioning">官网岗位以 AI 核心系统研发为主，方向①推理框架/KV Cache 存储、方向②TileLang 编译器与高性能算子最强匹配，方向③无专项推理岗。</span>
+          <span class="company-card-meta">
+<em>5 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/baichuan.html">
+          <span class="company-card-top">
+            <strong>百川智能</strong>
+            <span class="company-count">0 在招</span>
+          </span>
+          <span class="company-en">Baichuan</span>
+          <span class="company-positioning">AI Infra 推理方向实习/正式岗内容与 vLLM、CUDA、TVM/MLIR 高度对口，但 JD 统一要求硕士及以上；2028 本科暂不符合，作为读硕后重点跟踪。</span>
+          <span class="company-card-meta">
+          </span>
+        </a>
+        <a class="company-card" href="companies/zhipu.html">
+          <span class="company-card-top">
+            <strong>智谱</strong>
+            <span class="company-count">3 在招</span>
+          </span>
+          <span class="company-en">Zhipu AI</span>
+          <span class="company-positioning">GLM 开源生态与具身智能并重；GLM-开源算法工程师直接参与 vLLM/SGLang 适配与推理性能优化，是方向①最匹配入口，具身岗覆盖 VLA/VLM/世界模型。</span>
+          <span class="company-card-meta">
+<em>3 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/stepfun.html">
+          <span class="company-card-top">
+            <strong>阶跃星辰</strong>
+            <span class="company-count">2 在招</span>
+          </span>
+          <span class="company-en">StepFun</span>
+          <span class="company-positioning">StepStar 实习含本科可投的大模型推理优化岗，JD 直接要求 SGLang/vLLM + CUDA/Triton/CUTLASS；端侧 VLM 岗覆盖量化部署但卡硕士。</span>
+          <span class="company-card-meta">
+<em>2 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/cambricon.html">
+          <span class="company-card-top">
+            <strong>寒武纪</strong>
+            <span class="company-count">4 在招</span>
+          </span>
+          <span class="company-en">Cambricon</span>
+          <span class="company-positioning">国产 AI 芯片龙头，日常实习有明确面向 2028 届的「大模型推理优化实习生」，是五家中届别最匹配的岗位；编译器方向以 2027 届校招全职为主，实习暂无独立编译器岗。</span>
+          <span class="company-card-meta">
+<em>4 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/moorethreads.html">
+          <span class="company-card-top">
+            <strong>摩尔线程</strong>
+            <span class="company-count">5 在招</span>
+          </span>
+          <span class="company-en">Moore Threads</span>
+          <span class="company-positioning">国产全功能 GPU 厂商，AI 模型工程化团队直接做 vLLM/SGLang 推理适配与高性能算子；编译器实习岗明确硕士门槛，本科可投的推理/算子岗是主路径。</span>
+          <span class="company-card-meta">
+<em>5 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/sensetime.html">
+          <span class="company-card-top">
+            <strong>商汤</strong>
+            <span class="company-count">4 在招</span>
+          </span>
+          <span class="company-en">SenseTime</span>
+          <span class="company-positioning">商汤「实习生」批次有多个推理系统与推理引擎岗位，方向①覆盖最全；高性能推理岗未设学历门槛，是本科生的首选，方向②暂无独立编译器实习入口。</span>
+          <span class="company-card-meta">
+<em>4 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/kunlunxin.html">
+          <span class="company-card-top">
+            <strong>昆仑芯</strong>
+            <span class="company-count">1 在招</span>
+          </span>
+          <span class="company-en">Kunlunxin</span>
+          <span class="company-positioning">昆仑芯实习板以芯片软件研发为主，AI 训练/推理系统、推理框架与图编译器打包在同一岗位；当前仅 1 个三方向对口实习，2028 届可投。</span>
+          <span class="company-card-meta">
+<em>1 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/luochen.html">
+          <span class="company-card-top">
+            <strong>潞晨科技</strong>
+            <span class="company-count">0 在招</span>
+          </span>
+          <span class="company-en">LuoChen</span>
+          <span class="company-positioning">潞晨科技（Colossal-AI / Open-Sora）官网只列 3 个全职岗位，无公开实习 JD；2028 届实习需走官方邮箱自荐，当前无三方向在招实习。</span>
+          <span class="company-card-meta">
+          </span>
+        </a>
+        <a class="company-card" href="companies/minghong.html">
+          <span class="company-card-top">
+            <strong>明汯投资</strong>
+            <span class="company-count">1 在招</span>
+          </span>
+          <span class="company-en">Minghong</span>
+          <span class="company-positioning">国内头部量化私募，「2027+ 实习」项目的 AI 基础架构开发实习生直接做 CPU/GPU 推理延迟与算子编排，是方向①最匹配的本科可投岗；另有推理加速、高性能算子全职岗可跟踪。</span>
+          <span class="company-card-meta">
+<em>1 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/optiver.html">
+          <span class="company-card-top">
+            <strong>Optiver</strong>
+            <span class="company-count">2 在招</span>
+          </span>
+          <span class="company-en">Optiver</span>
+          <span class="company-positioning">全球头部做市商，上海 2027 暑期实习明确面向 2028 届及以后；ML Engineer 与 Software Developer 参与大规模 ML 训练/仿真的计算平台与库，A…</span>
+          <span class="company-card-meta">
+<em>2 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/ubiquant.html">
+          <span class="company-card-top">
+            <strong>九坤投资</strong>
+            <span class="company-count">2 在招</span>
+          </span>
+          <span class="company-en">Ubiquant</span>
+          <span class="company-positioning">国内头部量化对冲基金，校招 ATS 实习招聘 25 条；高性能计算实习生明确 2027/2028 届本科，做 CPU AVX/AMX、GPU CUDA 与 GNU/Clang 编译工…</span>
+          <span class="company-card-meta">
+<em>2 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/wizardquant.html">
+          <span class="company-card-top">
+            <strong>宽德投资</strong>
+            <span class="company-count">2 在招</span>
+          </span>
+          <span class="company-en">WizardQuant</span>
+          <span class="company-positioning">头部量化对冲基金，Will 智能学习实验室 29 个岗位以「全职/实习」双通道开放；后训练方向实习直接做 vLLM/SGLang 训推一体与 Continuous Batching/…</span>
+          <span class="company-card-meta">
+<em>2 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/dytechlab.html">
+          <span class="company-card-top">
+            <strong>道泰量合</strong>
+            <span class="company-count">1 在招</span>
+          </span>
+          <span class="company-en">DTL</span>
+          <span class="company-positioning">量化自营交易公司，官网实习岗设 GPU Engineer Internship，用 C++/CUDA/ROCm 为量化计算与数据处理做 GPU 加速和性能优化；无 LLM 推理或 A…</span>
+          <span class="company-card-meta">
+<em>1 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/nvidia.html">
+          <span class="company-card-top">
+            <strong>英伟达</strong>
+            <span class="company-count">7 在招</span>
+          </span>
+          <span class="company-en">NVIDIA</span>
+          <span class="company-positioning">GPU 与 AI 计算生态的核心外企，2027 实习季在上海/北京/深圳开放 TensorRT-LLM、GPU kernel、CUDA 编译器与 Cosmos 世界模型实习；本科可投…</span>
+          <span class="company-card-meta">
+<em>7 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/intel.html">
+          <span class="company-card-top">
+            <strong>英特尔</strong>
+            <span class="company-count">4 在招</span>
+          </span>
+          <span class="company-en">Intel</span>
+          <span class="company-positioning">Intel 中国实习以编译器、AI GPU 架构性能和端侧 AI 框架为主；LLVM/MLIR/Triton 编译器与 GPU kernel profiling 岗本科可投，是方向②的稳妥选择。</span>
+          <span class="company-card-meta">
+<em>4 个本科可投</em><em>1 个首推</em>          </span>
+        </a>
+        <a class="company-card" href="companies/microsoft.html">
+          <span class="company-card-top">
+            <strong>微软</strong>
+            <span class="company-count">3 在招</span>
+          </span>
+          <span class="company-en">Microsoft</span>
+          <span class="company-positioning">微软亚洲研究院以研究实习为主，系统组（上海）直接做 LLM 高效推理与深度学习编译，机器学习组/空间智能组覆盖具身 VLA 与世界模型；本科可投、邮件直投。</span>
+          <span class="company-card-meta">
+<em>3 个本科可投</em>          </span>
+        </a>
+        <a class="company-card" href="companies/qualcomm.html">
+          <span class="company-card-top">
+            <strong>高通</strong>
+            <span class="company-count">3 在招</span>
+          </span>
+          <span class="company-en">Qualcomm</span>
+          <span class="company-positioning">端侧 AI 芯片与机器人平台厂商，中国实习集中在骁龙 NPU 推理效率、ADAS 大模型部署与具身 VLA 算法；JD 普遍不写学历和届别，投递前需确认。</span>
+          <span class="company-card-meta">
+<em>3 个本科可投</em>          </span>
+        </a>
+  </div>
+</section>
+
+<section class="wrap section-block" id="timeline">
+  <div class="section-head">
+    <div>
+      <p class="section-kicker">TIMELINE</p>
+      <h2>重要时间节点</h2>
+    </div>
+    <p class="section-note">当前 2026-10-22，岗位有效期以官网为准</p>
+  </div>
+  <div class="timeline">
+    <div class="timeline-item">
+      <span class="timeline-time">**2026-10~12**</span>
+      <span class="timeline-event">日常实习滚动面试：DeepSeek/字节/快手/MiniMax/智谱/昆仑芯/商汤/阶跃/百度 等</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-time">**2026-11~12**</span>
+      <span class="timeline-event">2027 寒假实习批次陆续开放，关注各公司官网「寒假实习/实习生」入口；MSRA 2027 暑期研究实习申请窗口（往年 11-12 月）</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-time">**2026-10~2027-01**</span>
+      <span class="timeline-event">NVIDIA 2027 实习季滚动招满即止；Optiver 2027 上海暑期实习 rolling</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-time">**2027-02~05**</span>
+      <span class="timeline-event"><strong>2027 暑假实习批次集中开放</strong>（寒武纪/字节/腾讯/阿里/美团等），候选人最佳窗口，提前 2 个月盯官网</span>
+    </div>
+    <div class="timeline-item">
+      <span class="timeline-time">**全年滚动**</span>
+      <span class="timeline-event">京东 TGT（招满为止）、华为云算法创新 Lab（邮箱直投）、腾讯青云计划、Intel/NVIDIA Workday</span>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section-block" id="tips">
+  <div class="section-head">
+    <div>
+      <p class="section-kicker">APPLY</p>
+      <h2>投递注意事项</h2>
+    </div>
+  </div>
+  <ol class="tips-list">
+    <li><strong>官网需登录</strong>：字节 jobs.bytedance.com、美团 zhaopin.meituan.com、腾讯 join.qq.com、阿里 campus-talent.alibaba.com、百度 talent.baidu.com、华为 career.huawei.com、京东 campus.jd.com 等岗位详情页需登录；各公司文档中的链接以官网为准，<strong>最终投递请走官网或内推</strong></li>
+    <li><strong>邮箱直投零门槛</strong>（优先）：华为算法创新 Lab AlgInnovLab@huawei.com、快手可灵 tianrui06@kuaishou.com、DeepSeek talent@deepseek.com（并行）、阶跃 campus@stepfun.com、MSRA MSRAih@microsoft.com（+申请表 aka.ms/InternApplication）、MSRA 辰星 v-skyedu@microsoft.com、滴滴 internrecruit@didiglobal.com、月之暗面 hr@moonshot.ai、潞晨 resume@hpc-ai.com、宽德 hr@wizardquant.com、Optiver chinacareers@optiver.com.au</li>
+    <li><strong>外企走单独 ATS</strong>：Intel 走 intel.wd1.myworkdayjobs.com、NVIDIA 走 jobs.nvidia.com（转 Workday）、高通 careers.qualcomm.com、微软 jobs.careers.microsoft.com——均需英文简历</li>
+    <li><strong>实习时长</strong>：外企与部分大厂要求 ≥6 个月或每周 ≥4 天（寒武纪/NVIDIA/Intel/高通/微软等），提前规划排课</li>
+    <li><strong>岗位开放状态与有效期以官网为准</strong>：招满即下线的岗（滴滴/摩尔线程/昆仑芯等）尽早投递</li>
+    <li><strong>届别口径</strong>：ByteIntern 等"2027 届"批次不面向 2028-06 毕业；Seed 大模型人才实习、MiniMax 2028届实习、寒武纪 2028 届岗、京东 TGT（2026-10 后毕业即可）才是对口批次</li>
+  </ol>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <strong>AI Infra 实习机会</strong>
+        <p>南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">全部岗位</a>
+        <a href="companies/index.html">公司索引</a>
+        <a href="https://github.com/Peruere1828/aiinfrajobs" target="_blank" rel="noopener">数据仓库</a>
+      </div>
+      <p class="footer-note">
+        岗位状态、学历要求与有效期以官网为准。站点仅汇总官方招聘页 / 官方 ATS 链接，不含第三方聚合站。
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    window.__PAGE__ = {};
+    window.__SITE__ = { build_id: "202610221347", company: "" };
+  </script>
+  <script src="assets/app.js?v=202610221347"></script>
+</body>
+</html>

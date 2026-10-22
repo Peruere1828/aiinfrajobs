@@ -1,0 +1,76 @@
+{
+  "title": "AI Infra 实习机会",
+  "subtitle": "2028 届 · 本科 · 推理优化 / AI 编译器 / 世界模型",
+  "candidate": "南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA",
+  "updated_at": "2026-10-22 21:47",
+  "research_date": "2026-10-22",
+  "stats": {
+    "total": 272,
+    "active": 148,
+    "bachelor": 148,
+    "y2028": 146,
+    "featured": 10,
+    "companies": 33
+  },
+  "directions": [
+    {
+      "id": "inference",
+      "label": "① LLM 推理优化",
+      "short": "①",
+      "description": "推理框架、算子、KV Cache、PD 分离、量化、Serving"
+    },
+    {
+      "id": "compiler",
+      "label": "② AI 编译器开发",
+      "short": "②",
+      "description": "MLIR / LLVM / TVM / XLA / Triton / 图优化"
+    },
+    {
+      "id": "world",
+      "label": "③ 世界模型 / VLA / VLM",
+      "short": "③",
+      "description": "世界模型、VLA、VLM、多模态、视频生成推理优化"
+    }
+  ],
+  "timeline": [
+    {
+      "time": "**2026-10~12**",
+      "event": "日常实习滚动面试：DeepSeek/字节/快手/MiniMax/智谱/昆仑芯/商汤/阶跃/百度 等"
+    },
+    {
+      "time": "**2026-11~12**",
+      "event": "2027 寒假实习批次陆续开放，关注各公司官网「寒假实习/实习生」入口；MSRA 2027 暑期研究实习申请窗口（往年 11-12 月）"
+    },
+    {
+      "time": "**2026-10~2027-01**",
+      "event": "NVIDIA 2027 实习季滚动招满即止；Optiver 2027 上海暑期实习 rolling"
+    },
+    {
+      "time": "**2027-02~05**",
+      "event": "**2027 暑假实习批次集中开放**（寒武纪/字节/腾讯/阿里/美团等），候选人最佳窗口，提前 2 个月盯官网"
+    },
+    {
+      "time": "**全年滚动**",
+      "event": "京东 TGT（招满为止）、华为云算法创新 Lab（邮箱直投）、腾讯青云计划、Intel/NVIDIA Workday"
+    }
+  ],
+  "tips": [
+    "**官网需登录**：字节 jobs.bytedance.com、美团 zhaopin.meituan.com、腾讯 join.qq.com、阿里 campus-talent.alibaba.com、百度 talent.baidu.com、华为 career.huawei.com、京东 campus.jd.com 等岗位详情页需登录；各公司文档中的链接以官网为准，**最终投递请走官网或内推**",
+    "**邮箱直投零门槛**（优先）：华为算法创新 Lab AlgInnovLab@huawei.com、快手可灵 tianrui06@kuaishou.com、DeepSeek talent@deepseek.com（并行）、阶跃 campus@stepfun.com、MSRA MSRAih@microsoft.com（+申请表 aka.ms/InternApplication）、MSRA 辰星 v-skyedu@microsoft.com、滴滴 internrecruit@didiglobal.com、月之暗面 hr@moonshot.ai、潞晨 resume@hpc-ai.com、宽德 hr@wizardquant.com、Optiver chinacareers@optiver.com.au",
+    "**外企走单独 ATS**：Intel 走 intel.wd1.myworkdayjobs.com、NVIDIA 走 jobs.nvidia.com（转 Workday）、高通 careers.qualcomm.com、微软 jobs.careers.microsoft.com——均需英文简历",
+    "**实习时长**：外企与部分大厂要求 ≥6 个月或每周 ≥4 天（寒武纪/NVIDIA/Intel/高通/微软等），提前规划排课",
+    "**岗位开放状态与有效期以官网为准**：招满即下线的岗（滴滴/摩尔线程/昆仑芯等）尽早投递",
+    "**届别口径**：ByteIntern 等\"2027 届\"批次不面向 2028-06 毕业；Seed 大模型人才实习、MiniMax 2028届实习、寒武纪 2028 届岗、京东 TGT（2026-10 后毕业即可）才是对口批次"
+  ],
+  "top_picks": [],
+  "groups": [
+    "互联网巨头",
+    "AI 独角兽",
+    "AI 芯片/系统",
+    "量化/对冲基金",
+    "外企在华"
+  ],
+  "top_matched": 10,
+  "repo_url": "https://github.com/Peruere1828/aiinfrajobs",
+  "site_url": "https://peruere1828.github.io/aiinfrajobs/"
+}

@@ -1,0 +1,10 @@
+# Local-only scraping/build tools and working data
+tools/
+work/
+raw/
+scrape_*.py
+img2text.py
+image.png
+__pycache__/
+*.pyc
+*.log
