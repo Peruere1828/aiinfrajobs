@@ -2,12 +2,32 @@
 
 > 定位：GPU 与 AI 计算生态的核心外企，2027 实习季在上海/北京/深圳开放 TensorRT-LLM、GPU kernel、CUDA 编译器与 Cosmos 世界模型实习；本科可投的 kernel 与编译器岗最匹配。
 > 候选人画像：南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA
-> 调研时间：2026-10-22。数据来源：NVIDIA 官方招聘站中国区 2027 实习季 79 条，逐条读取职位详情 JD 后保留 16 条三方向岗位。
+> 调研时间：2026-10-28。数据来源：NVIDIA 官方招聘站中国区 2027 实习季 85 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。
 > 本文件由 `data/*.json` 自动生成，请勿手改；如需更新，请修改数据并重新构建。
 
 ## 数据源与筛选口径
 - 官网：https://jobs.nvidia.com/careers
-- 筛选口径：NVIDIA 官方招聘站中国区 2027 实习季 79 条，逐条读取职位详情 JD 后保留 16 条三方向岗位。
+- 筛选口径：NVIDIA 官方招聘站中国区 2027 实习季 85 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。
+
+## 方向① LLM 推理优化
+
+### 1. Accelerated Compute Systems Performance Architect Intern - 2027 ★★
+- 官网链接：https://jobs.nvidia.com/careers/job/893397574406
+- Base：上海 · Accelerated Computing Architecture
+- 内容：分析并优化加速计算在现有/下一代 GPU 上的性能，研究硬件与软件架构对核心算法和编程模型的影响，参与软硬协同设计。
+- 技能要点：CUDA、OpenCL、GPU 架构、性能分析、C/C++、NVSHMEM
+- 学历：【本科】（JD 原文：Pursuing B.Sc., M.Sc., or Ph.D. in relevant discipline）
+- 届别：JD 未限毕业届别；2027 实习季
+- 备注：本科及以上可投；Base 上海。
+
+### 2. Deep Learning Performance Intern - 2027 ★★★
+- 官网链接：https://jobs.nvidia.com/careers/job/893398110059
+- Base：上海 · Deep Learning Architecture
+- 内容：在 GPU/NPU 上评测并建模深度学习负载性能，定位架构、软件与系统瓶颈，面向 LLM/生成式模型提出硬件与软件优化方案。
+- 技能要点：GPU 架构、CUDA、性能建模、LLM、PyTorch、C++
+- 学历：【本科】（JD 原文：BSc. MS or PhD in relevant discipline）
+- 届别：JD 未限毕业届别；2027 实习季
+- 备注：本科及以上可投；Base 上海。
 
 ## 方向② AI 编译器开发
 
@@ -141,7 +161,16 @@
 - 届别：JD 未限毕业届别；2027 实习季岗位
 - 备注：硕士/博士门槛；2027 实习季；JD 未写时长；Base 上海/北京。
 
-### 8. Performance Software Intern, Deep Learning Libraries - 2027 ★★
+### 8. Deep Learning Model and System Optimization Engineering Intern – 2027 ★★
+- 官网链接：https://jobs.nvidia.com/careers/job/893398300350
+- Base：上海 / 北京 · Deep Learning Inference
+- 内容：优化 LLM 推理性能，覆盖模型结构、低精度数值、GPU kernel、显存系统与端到端 serving；研发低比特量化与 KV Cache 压缩/分层复用，并在 TensorRT-LLM 等框架落地。
+- 技能要点：TensorRT-LLM、vLLM、SGLang、CUDA、Triton、PyTorch、量化、KV Cache
+- 学历：【硕士】（JD 原文：Pursuing an MS or PhD ... with an expected graduation date in 2028）
+- 届别：JD 明确 2028 年毕业；硕士及以上
+- 备注：硕士/博士门槛；JD 明确 2028 年毕业；每周至少 4 天、至少 3 个月；Base 上海/北京。
+
+### 9. Performance Software Intern, Deep Learning Libraries - 2027 ★★
 - 官网链接：https://jobs.nvidia.com/careers/job/893397817902
 - Base：上海 / 北京 · Deep Learning Libraries Performance (CUTLASS)
 - 内容：为深度学习和线性代数核心算子（GEMM、MoE、Attention）编写并调优 GPU kernel，分析 GPU 架构与汇编，与编译器、训练/推理性能及硬件架构团队协作提升吞吐。
@@ -150,7 +179,7 @@
 - 届别：JD 未限毕业届别；2027 实习季岗位
 - 备注：硕士/博士门槛；2027 实习季；JD 未写时长；Base 上海/北京。
 
-### 9. Software Engineering Intern, DLFW Comms - 2027 ★★
+### 10. Software Engineering Intern, DLFW Comms - 2027 ★★
 - 官网链接：https://jobs.nvidia.com/careers/job/893397786054
 - Base：上海 / 北京 / 深圳 · Deep Learning Frameworks – Communications (NCCL/NVSHMEM)
 - 内容：把 NCCL、NVSHMEM 等通信库能力集成进 PyTorch、vLLM、SGLang、TensorRT-LLM、veRL，分析多 GPU 通信需求，编写融合计算-通信 kernel，优化从十万卡训练到微秒级推理的通信性能。
@@ -159,8 +188,17 @@
 - 届别：JD 未限毕业届别；2027 实习季岗位
 - 备注：硕士/博士门槛；2027 实习季；JD 未写时长；Base 上海/北京/深圳。
 
+### 11. Reinforcement Learning and World Model for Autonomous Simulation Intern - 2027 ★
+- 官网链接：https://jobs.nvidia.com/careers/job/893398300473
+- Base：上海 · Autonomous Driving Simulation
+- 内容：面向自动驾驶与 Physical AI，研究基于强化学习和多模态世界模拟模型的闭环训练，做世界模型、4D 场景表示与大规模训练管线。
+- 技能要点：强化学习、世界模型、NeRF、Gaussian Splatting、PyTorch、仿真
+- 学历：【博士】（JD 原文：Pursuing PhD in Computer Science, Machine Learning, or a related field）
+- 届别：JD 未限毕业届别；2027 实习季
+- 备注：博士门槛；需 RL / 世界模型 / 神经渲染背景；Base 上海。
+
 ## 优先级建议
 
 1. **AI Computing Software Intern, GPU Kernel Libraries - 2027** — AI Computing Software Intern, GPU Kernel Libraries - 2027 · 上海 · 本科 / 在校生 / 不限
 2. **AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027** — AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027 · 北京 / 上海 / 深圳 · 本科 / 在校生 / 不限
-3. **Developer Technology Engineering Intern - 2027** — Developer Technology Engineering Intern - 2027 · 北京 / 上海 · 未标注 / 在校生 / 不限
+3. **Deep Learning Performance Intern - 2027** — Deep Learning Performance Intern - 2027 · 上海 · 本科 / 在校生 / 不限

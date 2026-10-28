@@ -1,5 +1,122 @@
 [
   {
+    "slug": "bytedance",
+    "name": "字节跳动",
+    "name_en": "ByteDance",
+    "group": "互联网巨头",
+    "aliases": [
+      "字节跳动",
+      "ByteDance",
+      "字节"
+    ],
+    "positioning": "国内 LLM 推理与 AI 编译器岗位最密集的互联网巨头，Seed、Data AML、火山方舟与 AI 芯片团队覆盖 vLLM/SGLang、CUDA 算子、KV Cache/PD 分离与 TVM/MLIR/XLA；2028 届可投的 Seed 与日常实习是首选。",
+    "source_url": "https://jobs.bytedance.com/campus/position",
+    "source_note": "字节跳动校招官网实习列表（ByteIntern 646、日常实习 331、Seed 61、前沿技术 115，共 1153 条），按 JD 正文筛选三方向。",
+    "research_date": "2026-10-28",
+    "source_links": [
+      {
+        "label": "",
+        "url": "https://jobs.bytedance.com/campus/position"
+      }
+    ],
+    "source_md": "- 官网：https://jobs.bytedance.com/campus/position\n- 筛选口径：字节跳动校招官网实习列表（ByteIntern 646、日常实习 331、Seed 61、前沿技术 115，共 1153 条），按 JD 正文筛选三方向。",
+    "research_note": "调研时间：2026-10-28。数据来源：字节跳动校招官网实习列表（ByteIntern 646、日常实习 331、Seed 61、前沿技术 115，共 1153 条），按 JD 正文筛选三方向。",
+    "sections": [
+      {
+        "title": "方向① LLM 推理优化",
+        "kind": "active",
+        "directions": [
+          "inference"
+        ],
+        "intro_md": "",
+        "job_ids": [
+          "bytedance-7623004827124156677",
+          "bytedance-7682663334290884869",
+          "bytedance-7527656188890433800",
+          "bytedance-7622925236257933573",
+          "bytedance-7480382122965469447",
+          "bytedance-7573663075116501301",
+          "bytedance-7683750464154634501",
+          "bytedance-7411075330008959241",
+          "bytedance-7683461780438468869",
+          "bytedance-7622243675278133509",
+          "bytedance-7626644966476122421"
+        ],
+        "body_md": "",
+        "group_labels": []
+      },
+      {
+        "title": "方向② AI 编译器开发",
+        "kind": "active",
+        "directions": [
+          "compiler"
+        ],
+        "intro_md": "",
+        "job_ids": [
+          "bytedance-7527656188890433800",
+          "bytedance-7221748344929683769"
+        ],
+        "body_md": "",
+        "group_labels": []
+      },
+      {
+        "title": "方向③ 世界模型 / VLA / VLM",
+        "kind": "active",
+        "directions": [
+          "world"
+        ],
+        "intro_md": "",
+        "job_ids": [
+          "bytedance-7682663334290884869",
+          "bytedance-7622243675278133509",
+          "bytedance-7622213472429459717"
+        ],
+        "body_md": "",
+        "group_labels": []
+      },
+      {
+        "title": "跟踪 / 博士 / 排除（本科暂不可投）",
+        "kind": "tracking",
+        "directions": [],
+        "intro_md": "",
+        "job_ids": [
+          "bytedance-7610715160324671797",
+          "bytedance-7602194317671532853",
+          "bytedance-7600779565288950069",
+          "bytedance-7669763076561193269",
+          "bytedance-7605971294779410693",
+          "bytedance-7629686699551426869",
+          "bytedance-7651878054633474309",
+          "bytedance-7602171916674468101",
+          "bytedance-7641953417034746117",
+          "bytedance-7595769684848789765",
+          "bytedance-7644030099127945477",
+          "bytedance-7597285438249044277",
+          "bytedance-7599557895419644213",
+          "bytedance-7594374441730787589",
+          "bytedance-7593037110626584837",
+          "bytedance-7594457583458650421",
+          "bytedance-7602889808297675061",
+          "bytedance-7698643976681982213",
+          "bytedance-7667129447019252021",
+          "bytedance-7599603656892483893"
+        ],
+        "body_md": "",
+        "group_labels": []
+      }
+    ],
+    "priority_md": "1. **大模型推理优化与模型架构实习生 - TikTok内容安全平台** — 大模型推理优化与模型架构实习生 - TikTok内容安全平台 · 北京 · 本科 / 在校生 / 不限\n2. **大模型推理研发实习生 - Seed Model** — 大模型推理研发实习生 - Seed Model · 北京 · 本科 / 在校生 / 不限\n3. **大模型训练/推理优化实习生-Seed大模型人才实习** — 大模型训练/推理优化实习生-Seed大模型人才实习 · 北京 / 上海 · 本科 / 2028 届",
+    "stats": {
+      "total": 33,
+      "active": 13,
+      "bachelor": 13,
+      "y2028": 13,
+      "featured": 1,
+      "tracking": 20,
+      "phd": 0
+    }
+  },
+  {
     "slug": "kuaishou",
     "name": "快手",
     "name_en": "Kuaishou",
@@ -13,7 +130,7 @@
     "positioning": "可灵 AI 带来密集的视频生成/多模态推理系统岗位，覆盖推理框架、Model Serving、GPU 调度与 AIGC 推理引擎，多个岗位明确本科可投。",
     "source_url": "https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/",
     "source_note": "快手招聘官网社招/实习职位接口（recruitProjectCode=socialr）抓取 363 条，逐条按 JD 正文筛选三方向；本文件仅保留实习岗位，链接为官网实习职位详情页。",
-    "research_date": "2026-10-22",
+    "research_date": "2026-10-28",
     "source_links": [
       {
         "label": "",
@@ -21,7 +138,7 @@
       }
     ],
     "source_md": "- 官网：https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/\n- 筛选口径：快手招聘官网社招/实习职位接口（recruitProjectCode=socialr）抓取 363 条，逐条按 JD 正文筛选三方向；本文件仅保留实习岗位，链接为官网实习职位详情页。",
-    "research_note": "调研时间：2026-10-22。数据来源：快手招聘官网社招/实习职位接口（recruitProjectCode=socialr）抓取 363 条，逐条按 JD 正文筛选三方向；本文件仅保留实习岗位，链接为官网实习职位详情页。",
+    "research_note": "调研时间：2026-10-28。数据来源：快手招聘官网社招/实习职位接口（recruitProjectCode=socialr）抓取 363 条，逐条按 JD 正文筛选三方向；本文件仅保留实习岗位，链接为官网实习职位详情页。",
     "sections": [
       {
         "title": "方向① LLM 推理优化",
@@ -116,18 +233,18 @@
       "阿里云",
       "阿里妈妈"
     ],
-    "positioning": "研究型 + 日常实习批次覆盖方向①推理引擎/算子/KV Cache 与方向②编译优化，方向③集中在视频生成/世界模型/VLA 推理加速；本科或未标注可投 12 条。",
+    "positioning": "研究型 + 日常实习批次覆盖方向①推理引擎/算子/KV Cache 与方向②编译优化，方向③集中在视频生成/世界模型/VLA 推理加速；本科或未标注可投 13 条。",
     "source_url": "https://campus-talent.alibaba.com/campus/position",
-    "source_note": "阿里巴巴校园招聘官网「阿里巴巴研究型实习生」+「阿里巴巴日常实习生」批次全量 268 条，按 JD 正文筛选三方向；链接规则 .../campus/position/{id}。",
-    "research_date": "2026-10-22",
+    "source_note": "阿里巴巴校园招聘官网研究型实习生 + 日常实习生批次 277 条，按 JD 正文筛选三方向；链接规则 campus-talent.alibaba.com/campus/position/{id}。",
+    "research_date": "2026-10-28",
     "source_links": [
       {
         "label": "",
         "url": "https://campus-talent.alibaba.com/campus/position"
       }
     ],
-    "source_md": "- 官网：https://campus-talent.alibaba.com/campus/position\n- 筛选口径：阿里巴巴校园招聘官网「阿里巴巴研究型实习生」+「阿里巴巴日常实习生」批次全量 268 条，按 JD 正文筛选三方向；链接规则 .../campus/position/{id}。",
-    "research_note": "调研时间：2026-10-22。数据来源：阿里巴巴校园招聘官网「阿里巴巴研究型实习生」+「阿里巴巴日常实习生」批次全量 268 条，按 JD 正文筛选三方向；链接规则 .../campus/position/{id}。",
+    "source_md": "- 官网：https://campus-talent.alibaba.com/campus/position\n- 筛选口径：阿里巴巴校园招聘官网研究型实习生 + 日常实习生批次 277 条，按 JD 正文筛选三方向；链接规则 campus-talent.alibaba.com/campus/position/{id}。",
+    "research_note": "调研时间：2026-10-28。数据来源：阿里巴巴校园招聘官网研究型实习生 + 日常实习生批次 277 条，按 JD 正文筛选三方向；链接规则 campus-talent.alibaba.com/campus/position/{id}。",
     "sections": [
       {
         "title": "方向① LLM 推理优化",
@@ -147,7 +264,8 @@
           "alibaba-199904320004",
           "alibaba-199903740005",
           "alibaba-199908580001",
-          "alibaba-199903720011"
+          "alibaba-199903720011",
+          "alibaba-199910360004"
         ],
         "body_md": "",
         "group_labels": []
@@ -195,7 +313,10 @@
           "alibaba-199909680009",
           "alibaba-199903700010",
           "alibaba-199903780011",
-          "alibaba-199905060001"
+          "alibaba-199905060001",
+          "alibaba-199905080001",
+          "alibaba-199903880041",
+          "alibaba-199903700014"
         ],
         "body_md": "",
         "group_labels": []
@@ -203,127 +324,13 @@
     ],
     "priority_md": "1. **LLM 推理系统研发实习生（推理缓存方向）** — LLM 推理系统研发实习生（推理缓存方向） · 北京 / 杭州 · 未标注 / 在校生 / 不限\n2. **大模型推理性能优化实习生** — 大模型推理性能优化实习生 · 杭州 · 本科 / 在校生 / 不限\n3. **机器学习系统研发工程师-推理团队** — 机器学习系统研发工程师-推理团队 · 北京 / 杭州 · 未标注 / 在校生 / 不限",
     "stats": {
-      "total": 23,
-      "active": 12,
-      "bachelor": 12,
-      "y2028": 12,
+      "total": 27,
+      "active": 13,
+      "bachelor": 13,
+      "y2028": 13,
       "featured": 0,
-      "tracking": 7,
-      "phd": 4
-    }
-  },
-  {
-    "slug": "bytedance",
-    "name": "字节跳动",
-    "name_en": "ByteDance",
-    "group": "互联网巨头",
-    "aliases": [
-      "字节跳动",
-      "ByteDance",
-      "字节"
-    ],
-    "positioning": "国内 LLM 推理与 AI 编译器岗位最密集的互联网巨头，Seed、Data AML、火山方舟与 AI 芯片团队覆盖 vLLM/SGLang、CUDA 算子、KV Cache/PD 分离与 TVM/MLIR/XLA；2028 届可投的 Seed 与日常实习是首选。",
-    "source_url": "https://jobs.bytedance.com/campus/position",
-    "source_note": "字节跳动校招官网实习列表（ByteIntern 646、日常实习 331、Seed 61、前沿技术 115，共 1153 条），按 JD 正文筛选三方向。",
-    "research_date": "2026-10-22",
-    "source_links": [
-      {
-        "label": "",
-        "url": "https://jobs.bytedance.com/campus/position"
-      }
-    ],
-    "source_md": "- 官网：https://jobs.bytedance.com/campus/position\n- 筛选口径：字节跳动校招官网实习列表（ByteIntern 646、日常实习 331、Seed 61、前沿技术 115，共 1153 条），按 JD 正文筛选三方向。",
-    "research_note": "调研时间：2026-10-22。数据来源：字节跳动校招官网实习列表（ByteIntern 646、日常实习 331、Seed 61、前沿技术 115，共 1153 条），按 JD 正文筛选三方向。",
-    "sections": [
-      {
-        "title": "方向① LLM 推理优化",
-        "kind": "active",
-        "directions": [
-          "inference"
-        ],
-        "intro_md": "",
-        "job_ids": [
-          "bytedance-7623004827124156677",
-          "bytedance-7682663334290884869",
-          "bytedance-7527656188890433800",
-          "bytedance-7622925236257933573",
-          "bytedance-7480382122965469447",
-          "bytedance-7573663075116501301",
-          "bytedance-7683750464154634501",
-          "bytedance-7411075330008959241",
-          "bytedance-7683461780438468869",
-          "bytedance-7622243675278133509"
-        ],
-        "body_md": "",
-        "group_labels": []
-      },
-      {
-        "title": "方向② AI 编译器开发",
-        "kind": "active",
-        "directions": [
-          "compiler"
-        ],
-        "intro_md": "",
-        "job_ids": [
-          "bytedance-7527656188890433800",
-          "bytedance-7221748344929683769"
-        ],
-        "body_md": "",
-        "group_labels": []
-      },
-      {
-        "title": "方向③ 世界模型 / VLA / VLM",
-        "kind": "active",
-        "directions": [
-          "world"
-        ],
-        "intro_md": "",
-        "job_ids": [
-          "bytedance-7682663334290884869",
-          "bytedance-7622243675278133509"
-        ],
-        "body_md": "",
-        "group_labels": []
-      },
-      {
-        "title": "跟踪 / 博士 / 排除（本科暂不可投）",
-        "kind": "tracking",
-        "directions": [],
-        "intro_md": "",
-        "job_ids": [
-          "bytedance-7610715160324671797",
-          "bytedance-7602194317671532853",
-          "bytedance-7600779565288950069",
-          "bytedance-7669763076561193269",
-          "bytedance-7605971294779410693",
-          "bytedance-7629686699551426869",
-          "bytedance-7651878054633474309",
-          "bytedance-7602171916674468101",
-          "bytedance-7641953417034746117",
-          "bytedance-7595769684848789765",
-          "bytedance-7644030099127945477",
-          "bytedance-7597285438249044277",
-          "bytedance-7599557895419644213",
-          "bytedance-7594374441730787589",
-          "bytedance-7593037110626584837",
-          "bytedance-7594457583458650421",
-          "bytedance-7602889808297675061",
-          "bytedance-7698643976681982213",
-          "bytedance-7667129447019252021"
-        ],
-        "body_md": "",
-        "group_labels": []
-      }
-    ],
-    "priority_md": "1. **大模型推理优化与模型架构实习生 - TikTok内容安全平台** — 大模型推理优化与模型架构实习生 - TikTok内容安全平台 · 北京 · 本科 / 在校生 / 不限\n2. **大模型推理研发实习生 - Seed Model** — 大模型推理研发实习生 - Seed Model · 北京 · 本科 / 在校生 / 不限\n3. **大模型训练/推理优化实习生-Seed大模型人才实习** — 大模型训练/推理优化实习生-Seed大模型人才实习 · 北京 / 上海 · 本科 / 2028 届",
-    "stats": {
-      "total": 30,
-      "active": 11,
-      "bachelor": 11,
-      "y2028": 11,
-      "featured": 1,
-      "tracking": 19,
-      "phd": 0
+      "tracking": 8,
+      "phd": 6
     }
   },
   {
@@ -538,6 +545,73 @@
     }
   },
   {
+    "slug": "baidu",
+    "name": "百度",
+    "name_en": "Baidu",
+    "group": "互联网巨头",
+    "aliases": [
+      "百度",
+      "Baidu"
+    ],
+    "positioning": "日常实习技术批次以方向①推理引擎、国产 GPU 推理、推理平台为主，方向③有 VLM 推理部署岗；本批次无独立 AI 编译器岗。",
+    "source_url": "https://talent.baidu.com/jobs/list?recruitType=INTERN",
+    "source_note": "百度校园招聘官网日常实习项目（技术类）238 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。",
+    "research_date": "2026-10-28",
+    "source_links": [
+      {
+        "label": "",
+        "url": "https://talent.baidu.com/jobs/list?recruitType=INTERN"
+      }
+    ],
+    "source_md": "- 官网：https://talent.baidu.com/jobs/list?recruitType=INTERN\n- 筛选口径：百度校园招聘官网日常实习项目（技术类）238 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。",
+    "research_note": "调研时间：2026-10-28。数据来源：百度校园招聘官网日常实习项目（技术类）238 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。",
+    "sections": [
+      {
+        "title": "方向① LLM 推理优化",
+        "kind": "active",
+        "directions": [
+          "inference"
+        ],
+        "intro_md": "",
+        "job_ids": [
+          "baidu-6ba68d4d-889c-48a1-bed7-d4112c43014b",
+          "baidu-3edba1e5-73f5-4dc3-b71f-5d831301bb2e",
+          "baidu-52415af4-405a-4f07-8392-d4b63e76df8c",
+          "baidu-22af15e9-82c2-4599-857f-a698be40a364",
+          "baidu-b8b47b42-494a-451e-8f62-7b54e0b9aec9",
+          "baidu-702c668b-751b-4173-ab08-e1cbf760350c",
+          "baidu-1e387d3a-d31c-4787-8e27-21fac41e6373",
+          "baidu-fc9116ea-102d-48a9-9945-0bc64d362b3c"
+        ],
+        "body_md": "",
+        "group_labels": []
+      },
+      {
+        "title": "跟踪 / 博士 / 排除（本科暂不可投）",
+        "kind": "tracking",
+        "directions": [],
+        "intro_md": "",
+        "job_ids": [
+          "baidu-a58cdcc1-2690-4d2d-b41c-51698d1a97f4",
+          "baidu-397771ff-709c-42f5-9fd7-2e4112e0768d",
+          "baidu-88ef5f2d-93ca-445b-9b39-90b7e2f4880e"
+        ],
+        "body_md": "",
+        "group_labels": []
+      }
+    ],
+    "priority_md": "1. **AI Infra 实习生（J104435）** — AI Infra 实习生（J104435） · 北京 · 未标注 / 在校生 / 不限\n2. **大模型推理工程实习生（J105856）** — 大模型推理工程实习生（J105856） · 北京 / 上海 · 本科 / 在校生 / 不限\n3. **大模型推理研发实习生（J106486）** — 大模型推理研发实习生（J106486） · 深圳 · 本科 / 在校生 / 不限",
+    "stats": {
+      "total": 11,
+      "active": 8,
+      "bachelor": 8,
+      "y2028": 8,
+      "featured": 0,
+      "tracking": 3,
+      "phd": 0
+    }
+  },
+  {
     "slug": "xiaomi",
     "name": "小米",
     "name_en": "Xiaomi",
@@ -632,72 +706,6 @@
       "y2028": 7,
       "featured": 0,
       "tracking": 7,
-      "phd": 0
-    }
-  },
-  {
-    "slug": "baidu",
-    "name": "百度",
-    "name_en": "Baidu",
-    "group": "互联网巨头",
-    "aliases": [
-      "百度",
-      "Baidu"
-    ],
-    "positioning": "日常实习技术批次以方向①推理引擎、国产 GPU 推理、推理平台为主，方向③有 VLM 推理部署岗；本批次无独立 AI 编译器岗。",
-    "source_url": "https://talent.baidu.com/jobs/list?recruitType=INTERN",
-    "source_note": "百度校园招聘官网日常实习项目（技术类）240 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。",
-    "research_date": "2026-10-22",
-    "source_links": [
-      {
-        "label": "",
-        "url": "https://talent.baidu.com/jobs/list?recruitType=INTERN"
-      }
-    ],
-    "source_md": "- 官网：https://talent.baidu.com/jobs/list?recruitType=INTERN\n- 筛选口径：百度校园招聘官网日常实习项目（技术类）240 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。",
-    "research_note": "调研时间：2026-10-22。数据来源：百度校园招聘官网日常实习项目（技术类）240 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。",
-    "sections": [
-      {
-        "title": "方向① LLM 推理优化",
-        "kind": "active",
-        "directions": [
-          "inference"
-        ],
-        "intro_md": "",
-        "job_ids": [
-          "baidu-6ba68d4d-889c-48a1-bed7-d4112c43014b",
-          "baidu-3edba1e5-73f5-4dc3-b71f-5d831301bb2e",
-          "baidu-52415af4-405a-4f07-8392-d4b63e76df8c",
-          "baidu-22af15e9-82c2-4599-857f-a698be40a364",
-          "baidu-b8b47b42-494a-451e-8f62-7b54e0b9aec9",
-          "baidu-702c668b-751b-4173-ab08-e1cbf760350c",
-          "baidu-1e387d3a-d31c-4787-8e27-21fac41e6373"
-        ],
-        "body_md": "",
-        "group_labels": []
-      },
-      {
-        "title": "跟踪 / 博士 / 排除（本科暂不可投）",
-        "kind": "tracking",
-        "directions": [],
-        "intro_md": "",
-        "job_ids": [
-          "baidu-a58cdcc1-2690-4d2d-b41c-51698d1a97f4",
-          "baidu-397771ff-709c-42f5-9fd7-2e4112e0768d",
-          "baidu-88ef5f2d-93ca-445b-9b39-90b7e2f4880e"
-        ],
-        "body_md": "",
-        "group_labels": []
-      }
-    ],
-    "priority_md": "1. **AI Infra 实习生（J104435）** — AI Infra 实习生（J104435） · 北京 · 未标注 / 在校生 / 不限\n2. **大模型推理工程实习生（J105856）** — 大模型推理工程实习生（J105856） · 北京 / 上海 · 本科 / 在校生 / 不限\n3. **大模型推理研发实习生（J106486）** — 大模型推理研发实习生（J106486） · 深圳 · 本科 / 在校生 / 不限",
-    "stats": {
-      "total": 10,
-      "active": 7,
-      "bachelor": 7,
-      "y2028": 7,
-      "featured": 0,
-      "tracking": 3,
       "phd": 0
     }
   },
@@ -1211,7 +1219,7 @@
     "positioning": "官网岗位以 AI 核心系统研发为主，方向①推理框架/KV Cache 存储、方向②TileLang 编译器与高性能算子最强匹配，方向③无专项推理岗。",
     "source_url": "https://app.mokahr.com/social-recruitment/high-flyer/140576",
     "source_note": "DeepSeek 官网招聘（MokaHR 幻方&DeepSeek 板）36 条开放岗位，按 JD 正文筛选三方向；链接规则 ...#/job/{id}。",
-    "research_date": "2026-10-22",
+    "research_date": "2026-10-28",
     "source_links": [
       {
         "label": "",
@@ -1219,7 +1227,7 @@
       }
     ],
     "source_md": "- 官网：https://app.mokahr.com/social-recruitment/high-flyer/140576\n- 筛选口径：DeepSeek 官网招聘（MokaHR 幻方&DeepSeek 板）36 条开放岗位，按 JD 正文筛选三方向；链接规则 ...#/job/{id}。",
-    "research_note": "调研时间：2026-10-22。数据来源：DeepSeek 官网招聘（MokaHR 幻方&DeepSeek 板）36 条开放岗位，按 JD 正文筛选三方向；链接规则 ...#/job/{id}。",
+    "research_note": "调研时间：2026-10-28。数据来源：DeepSeek 官网招聘（MokaHR 幻方&DeepSeek 板）36 条开放岗位，按 JD 正文筛选三方向；链接规则 ...#/job/{id}。",
     "sections": [
       {
         "title": "方向① LLM 推理优化",
@@ -2131,16 +2139,16 @@
     ],
     "positioning": "GPU 与 AI 计算生态的核心外企，2027 实习季在上海/北京/深圳开放 TensorRT-LLM、GPU kernel、CUDA 编译器与 Cosmos 世界模型实习；本科可投的 kernel 与编译器岗最匹配。",
     "source_url": "https://jobs.nvidia.com/careers",
-    "source_note": "NVIDIA 官方招聘站中国区 2027 实习季 79 条，逐条读取职位详情 JD 后保留 16 条三方向岗位。",
-    "research_date": "2026-10-22",
+    "source_note": "NVIDIA 官方招聘站中国区 2027 实习季 85 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。",
+    "research_date": "2026-10-28",
     "source_links": [
       {
         "label": "",
         "url": "https://jobs.nvidia.com/careers"
       }
     ],
-    "source_md": "- 官网：https://jobs.nvidia.com/careers\n- 筛选口径：NVIDIA 官方招聘站中国区 2027 实习季 79 条，逐条读取职位详情 JD 后保留 16 条三方向岗位。",
-    "research_note": "调研时间：2026-10-22。数据来源：NVIDIA 官方招聘站中国区 2027 实习季 79 条，逐条读取职位详情 JD 后保留 16 条三方向岗位。",
+    "source_md": "- 官网：https://jobs.nvidia.com/careers\n- 筛选口径：NVIDIA 官方招聘站中国区 2027 实习季 85 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。",
+    "research_note": "调研时间：2026-10-28。数据来源：NVIDIA 官方招聘站中国区 2027 实习季 85 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。",
     "sections": [
       {
         "title": "方向① LLM 推理优化",
@@ -2155,7 +2163,9 @@
           "nvidia-893397938475",
           "nvidia-893397390526",
           "nvidia-893397740065",
-          "nvidia-893398124618"
+          "nvidia-893398124618",
+          "nvidia-893398110059",
+          "nvidia-893397574406"
         ],
         "body_md": "",
         "group_labels": []
@@ -2205,96 +2215,23 @@
           "nvidia-893397279505",
           "nvidia-893397938468",
           "nvidia-893397817909",
-          "nvidia-893397342814"
+          "nvidia-893397342814",
+          "nvidia-893398300350",
+          "nvidia-893398300473"
         ],
         "body_md": "",
         "group_labels": []
       }
     ],
-    "priority_md": "1. **AI Computing Software Intern, GPU Kernel Libraries - 2027** — AI Computing Software Intern, GPU Kernel Libraries - 2027 · 上海 · 本科 / 在校生 / 不限\n2. **AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027** — AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027 · 北京 / 上海 / 深圳 · 本科 / 在校生 / 不限\n3. **Developer Technology Engineering Intern - 2027** — Developer Technology Engineering Intern - 2027 · 北京 / 上海 · 未标注 / 在校生 / 不限",
+    "priority_md": "1. **AI Computing Software Intern, GPU Kernel Libraries - 2027** — AI Computing Software Intern, GPU Kernel Libraries - 2027 · 上海 · 本科 / 在校生 / 不限\n2. **AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027** — AI Infrastructure and Frameworks Intern, Cosmos Lab - 2027 · 北京 / 上海 / 深圳 · 本科 / 在校生 / 不限\n3. **Deep Learning Performance Intern - 2027** — Deep Learning Performance Intern - 2027 · 上海 · 本科 / 在校生 / 不限",
     "stats": {
-      "total": 16,
-      "active": 7,
-      "bachelor": 7,
-      "y2028": 7,
+      "total": 20,
+      "active": 9,
+      "bachelor": 9,
+      "y2028": 9,
       "featured": 1,
-      "tracking": 9,
-      "phd": 0
-    }
-  },
-  {
-    "slug": "intel",
-    "name": "英特尔",
-    "name_en": "Intel",
-    "group": "外企在华",
-    "aliases": [
-      "英特尔",
-      "Intel"
-    ],
-    "positioning": "Intel 中国实习以编译器、AI GPU 架构性能和端侧 AI 框架为主；LLVM/MLIR/Triton 编译器与 GPU kernel profiling 岗本科可投，是方向②的稳妥选择。",
-    "source_url": "https://intel.wd1.myworkdayjobs.com/en-US/External",
-    "source_note": "Intel Workday 官方招聘站中国区实习岗位 8 条 + 站内检索补充 AI GPU 性能岗 2 条，逐条读取 Workday 职位 API 的 JD 筛选。",
-    "research_date": "2026-10-22",
-    "source_links": [
-      {
-        "label": "",
-        "url": "https://intel.wd1.myworkdayjobs.com/en-US/External"
-      }
-    ],
-    "source_md": "- 官网：https://intel.wd1.myworkdayjobs.com/en-US/External\n- 筛选口径：Intel Workday 官方招聘站中国区实习岗位 8 条 + 站内检索补充 AI GPU 性能岗 2 条，逐条读取 Workday 职位 API 的 JD 筛选。",
-    "research_note": "调研时间：2026-10-22。数据来源：Intel Workday 官方招聘站中国区实习岗位 8 条 + 站内检索补充 AI GPU 性能岗 2 条，逐条读取 Workday 职位 API 的 JD 筛选。",
-    "sections": [
-      {
-        "title": "方向① LLM 推理优化",
-        "kind": "active",
-        "directions": [
-          "inference"
-        ],
-        "intro_md": "",
-        "job_ids": [
-          "intel-JR0287941",
-          "intel-JR0287928",
-          "intel-JR0287915",
-          "intel-JR0287327"
-        ],
-        "body_md": "",
-        "group_labels": []
-      },
-      {
-        "title": "方向② AI 编译器开发",
-        "kind": "active",
-        "directions": [
-          "compiler"
-        ],
-        "intro_md": "",
-        "job_ids": [
-          "intel-JR0287941"
-        ],
-        "body_md": "",
-        "group_labels": []
-      },
-      {
-        "title": "跟踪 / 博士 / 排除（本科暂不可投）",
-        "kind": "tracking",
-        "directions": [],
-        "intro_md": "",
-        "job_ids": [
-          "intel-JR0286124",
-          "intel-JR0288261"
-        ],
-        "body_md": "",
-        "group_labels": []
-      }
-    ],
-    "priority_md": "1. **AI GPU Arch Perf Analysis Intern** — AI GPU Arch Perf Analysis Intern · 北京 · 本科 / 在校生 / 不限\n2. **AI GPU Arch Perf Optimization Intern** — AI GPU Arch Perf Optimization Intern · 上海 · 本科 / 在校生 / 不限\n3. **Compiler Engineering Intern** — Compiler Engineering Intern · 上海 · 本科 / 在校生 / 不限",
-    "stats": {
-      "total": 6,
-      "active": 4,
-      "bachelor": 4,
-      "y2028": 4,
-      "featured": 1,
-      "tracking": 2,
-      "phd": 0
+      "tracking": 10,
+      "phd": 1
     }
   },
   {
@@ -2387,7 +2324,7 @@
     "positioning": "端侧 AI 芯片与机器人平台厂商，中国实习集中在骁龙 NPU 推理效率、ADAS 大模型部署与具身 VLA 算法；JD 普遍不写学历和届别，投递前需确认。",
     "source_url": "https://careers.qualcomm.com/careers",
     "source_note": "Qualcomm 官方招聘站中国区实习 23 条，逐条读取 JD 后保留端侧推理/具身 VLA 3 条。",
-    "research_date": "2026-10-22",
+    "research_date": "2026-10-28",
     "source_links": [
       {
         "label": "",
@@ -2395,7 +2332,7 @@
       }
     ],
     "source_md": "- 官网：https://careers.qualcomm.com/careers\n- 筛选口径：Qualcomm 官方招聘站中国区实习 23 条，逐条读取 JD 后保留端侧推理/具身 VLA 3 条。",
-    "research_note": "调研时间：2026-10-22。数据来源：Qualcomm 官方招聘站中国区实习 23 条，逐条读取 JD 后保留端侧推理/具身 VLA 3 条。",
+    "research_note": "调研时间：2026-10-28。数据来源：Qualcomm 官方招聘站中国区实习 23 条，逐条读取 JD 后保留端侧推理/具身 VLA 3 条。",
     "sections": [
       {
         "title": "方向① LLM 推理优化",
@@ -2433,6 +2370,79 @@
       "y2028": 3,
       "featured": 0,
       "tracking": 0,
+      "phd": 0
+    }
+  },
+  {
+    "slug": "intel",
+    "name": "英特尔",
+    "name_en": "Intel",
+    "group": "外企在华",
+    "aliases": [
+      "英特尔",
+      "Intel"
+    ],
+    "positioning": "Intel 中国实习以编译器与 AI GPU 架构性能为主；LLVM/MLIR/Triton 编译器与 GPU kernel profiling 岗本科可投，是方向②的稳妥选择。",
+    "source_url": "https://intel.wd1.myworkdayjobs.com/en-US/External",
+    "source_note": "Intel Workday 公开 API 中国区实习岗，逐个校验 jobPostingInfo 后保留 4 条三方向岗位。",
+    "research_date": "2026-10-28",
+    "source_links": [
+      {
+        "label": "",
+        "url": "https://intel.wd1.myworkdayjobs.com/en-US/External"
+      }
+    ],
+    "source_md": "- 官网：https://intel.wd1.myworkdayjobs.com/en-US/External\n- 筛选口径：Intel Workday 公开 API 中国区实习岗，逐个校验 jobPostingInfo 后保留 4 条三方向岗位。",
+    "research_note": "调研时间：2026-10-28。数据来源：Intel Workday 公开 API 中国区实习岗，逐个校验 jobPostingInfo 后保留 4 条三方向岗位。",
+    "sections": [
+      {
+        "title": "方向① LLM 推理优化",
+        "kind": "active",
+        "directions": [
+          "inference"
+        ],
+        "intro_md": "",
+        "job_ids": [
+          "intel-JR0287941",
+          "intel-JR0287915"
+        ],
+        "body_md": "",
+        "group_labels": []
+      },
+      {
+        "title": "方向② AI 编译器开发",
+        "kind": "active",
+        "directions": [
+          "compiler"
+        ],
+        "intro_md": "",
+        "job_ids": [
+          "intel-JR0287941"
+        ],
+        "body_md": "",
+        "group_labels": []
+      },
+      {
+        "title": "跟踪 / 博士 / 排除（本科暂不可投）",
+        "kind": "tracking",
+        "directions": [],
+        "intro_md": "",
+        "job_ids": [
+          "intel-JR0286124",
+          "intel-JR0288261"
+        ],
+        "body_md": "",
+        "group_labels": []
+      }
+    ],
+    "priority_md": "1. **AI GPU Arch Perf Optimization Intern** — AI GPU Arch Perf Optimization Intern · 上海 · 本科 / 在校生 / 不限\n2. **Compiler Engineering Intern** — Compiler Engineering Intern · 上海 · 本科 / 在校生 / 不限",
+    "stats": {
+      "total": 4,
+      "active": 2,
+      "bachelor": 2,
+      "y2028": 2,
+      "featured": 1,
+      "tracking": 2,
       "phd": 0
     }
   }
