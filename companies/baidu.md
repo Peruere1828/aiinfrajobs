@@ -2,12 +2,12 @@
 
 > 定位：日常实习技术批次以方向①推理引擎、国产 GPU 推理、推理平台为主，方向③有 VLM 推理部署岗；本批次无独立 AI 编译器岗。
 > 候选人画像：南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA
-> 调研时间：2026-10-28。数据来源：百度校园招聘官网日常实习项目（技术类）238 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。
+> 调研时间：2026-11-08。数据来源：百度校园招聘官网日常实习项目（技术类）222 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。
 > 本文件由 `data/*.json` 自动生成，请勿手改；如需更新，请修改数据并重新构建。
 
 ## 数据源与筛选口径
 - 官网：https://talent.baidu.com/jobs/list?recruitType=INTERN
-- 筛选口径：百度校园招聘官网日常实习项目（技术类）238 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。
+- 筛选口径：百度校园招聘官网日常实习项目（技术类）222 条，按 JD 正文筛选三方向；链接规则 .../jobs/detail/INTERN/{postId}。
 
 ## 方向① LLM 推理优化
 
@@ -64,24 +64,6 @@
 - 学历：【本科】（JD 原文：本科或硕士在读）
 - 届别：日常实习，在校生可投；JD 未限届别；批次：日常实习
 - 备注：本科或硕士在读；日常实习；Base 深圳。
-
-### 7. 百度百舸-机器学习平台研发（实习）（J105000） ★
-- 官网链接：https://talent.baidu.com/jobs/detail/INTERN/702c668b-751b-4173-ab08-e1cbf760350c
-- Base：北京 / 上海 · ACG
-- 内容：参与百度智能云百舸 AI 算力基础设施，研发大规模分布式训练/推理系统、异构算力调度与 Kubernetes 平台能力。
-- 技能要点：Kubernetes、分布式推理、异构算力、资源调度、Python、Go、C++
-- 学历：【本科】（JD 原文：本科及以上在校生）
-- 届别：日常实习，在校生可投；JD 未限届别；批次：日常实习
-- 备注：本科及以上；每周 4 天、至少 4 个月；偏平台/调度；Base 北京/上海。
-
-### 8. 高性能通信互联研发工程师（J102926） ★
-- 官网链接：https://talent.baidu.com/jobs/detail/INTERN/1e387d3a-d31c-4787-8e27-21fac41e6373
-- Base：北京 · ACG
-- 内容：基于百度天池超节点做 Scale-up/Scale-out 互联优化，结合 SGLang/vLLM 优化 TP/PP/EP 通信调度与 PD 分离 KV Cache RDMA 传输。
-- 技能要点：RDMA、RoCEv2、InfiniBand、DeepEP、SGLang、vLLM、PD分离、KV Cache
-- 学历：【未标注】（JD 未写学历门槛）
-- 届别：日常实习，在校生可投；JD 未限届别；批次：日常实习
-- 备注：JD 未写学历门槛；实习约 6 个月；Base 北京。
 
 ## 跟踪 / 博士 / 排除（本科暂不可投）
 

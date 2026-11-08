@@ -2,7 +2,7 @@
 
 > 定位：可灵 AI 带来密集的视频生成/多模态推理系统岗位，覆盖推理框架、Model Serving、GPU 调度与 AIGC 推理引擎，多个岗位明确本科可投。
 > 候选人画像：南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA
-> 调研时间：2026-10-28。数据来源：快手招聘官网社招/实习职位接口（recruitProjectCode=socialr）抓取 363 条，逐条按 JD 正文筛选三方向；本文件仅保留实习岗位，链接为官网实习职位详情页。
+> 调研时间：2026-11-08。数据来源：快手招聘官网社招/实习职位接口（recruitProjectCode=socialr）抓取 363 条，逐条按 JD 正文筛选三方向；本文件仅保留实习岗位，链接为官网实习职位详情页。
 > 本文件由 `data/*.json` 自动生成，请勿手改；如需更新，请修改数据并重新构建。
 
 ## 数据源与筛选口径
@@ -152,16 +152,7 @@
 - 届别：JD 未限届别；硕博在读，可实习半年以上；批次：日常实习
 - 备注：硕博门槛；有 CV/NLP 顶会论文或 CUDA/Triton 开发经验优先。
 
-### 3. 大模型算法实习生 ★
-- 官网链接：https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/33037
-- Base：北京 · 端侧大模型推理
-- 内容：对 Qwen 等多模态大模型做微调、量化、剪枝、蒸馏，并基于 llama.cpp 等推理引擎优化移动端推理链路，包括推理加速、算子融合与硬件调度。
-- 技能要点：llama.cpp、量化、剪枝、蒸馏、算子融合、C/C++、端侧推理
-- 学历：【硕士】（JD 原文：硕士及以上学历）
-- 届别：JD 未限届别；硕士及以上可投；批次：日常实习
-- 备注：端侧推理方向，硕士门槛；2028 本科不可直接投。
-
-### 4. 大模型训推优化实习岗 ★
+### 3. 大模型训推优化实习岗 ★
 - 官网链接：https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/27144
 - Base：北京 / 深圳 / 杭州 · 大模型训推优化
 - 内容：做文生图/文生视频大模型核心算子的 CUDA/Triton 开发与性能优化，优化混合精度量化、低比特/稀疏化、显存管理与计算图调度，探索算子融合/动态编译，并搭建端到端推理流水线。
@@ -170,7 +161,7 @@
 - 届别：JD 未限届别；硕士门槛且要求 2 年以上 CUDA/GPU 经验；批次：日常实习
 - 备注：硕士 + 2 年经验门槛，2028 本科不符合；JD 含动态编译/算子融合内容，可作为编译器方向的跟踪项。
 
-### 5. 算法工程 Codesign 实习生-【可灵】 ★
+### 4. 算法工程 Codesign 实习生-【可灵】 ★
 - 官网链接：https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/32515
 - Base：北京 / 上海 · 可灵 AI · 算法工程 Codesign
 - 内容：面向视频 Diffusion 与生成-理解统一架构做 token efficiency 与训推吞吐 Co-design：稀疏注意力、Latent MoE、FP8 低精度训练、关键算子（CUDA/CUTLASS）与并行策略优化。
@@ -179,7 +170,7 @@
 - 届别：JD 未限届别；硕士及以上可投；批次：可灵
 - 备注：偏训练系统与架构 Co-design，含推理开销优化；硕士门槛。
 
-### 6. （可灵AI专项）大模型推理系统开发实习生 ★★
+### 5. （可灵AI专项）大模型推理系统开发实习生 ★★
 - 官网链接：https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/27177
 - Base：北京 · 可灵 AI · 推理系统
 - 内容：搭建多模态内容生成的多阶段分布式推理链路，负责视觉/文本/音频模型服务部署与 pipeline 编排，并研发推理调度引擎、模型服务框架与异构集群算力分配。
@@ -188,7 +179,7 @@
 - 届别：JD 要求 2026 年及以后获得硕士学历；2028-06 毕业符合届别，但卡硕士；批次：可灵
 - 备注：硕士门槛，2028 本科不可直接投；可跟踪其推理系统方向，读研后再投。
 
-### 7. （可灵AI专项）大模型算法加速/优化实习生 ★
+### 6. （可灵AI专项）大模型算法加速/优化实习生 ★
 - 官网链接：https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/27889
 - Base：北京 / 上海 · 可灵 AI · 算法加速
 - 内容：做视频/图像生成模型的少步蒸馏（consistency、shortcut、score distillation）与 Transformer 高效注意力、FP8/FP4 量化训练，推进生成模型实时化。
@@ -197,7 +188,7 @@
 - 届别：JD 未限届别；硕士及以上可投；批次：可灵
 - 备注：偏算法与训练侧加速（蒸馏/量化训练），不是 serving 工程岗；硕士门槛。
 
-### 8. 大模型算法实习生（VLM/Multimodal方向) ★
+### 7. 大模型算法实习生（VLM/Multimodal方向) ★
 - 官网链接：https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/31019
 - Base：北京 · VLM / 海外 GUI Agent
 - 内容：参与 LLM/VLM 的 CT、SFT、RL 算法与海外 GUI Agent 研发，构建高并发低延迟的 Agent 推理服务架构。

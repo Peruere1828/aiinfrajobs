@@ -2,12 +2,12 @@
 
 > 定位：GPU 与 AI 计算生态的核心外企，2027 实习季在上海/北京/深圳开放 TensorRT-LLM、GPU kernel、CUDA 编译器与 Cosmos 世界模型实习；本科可投的 kernel 与编译器岗最匹配。
 > 候选人画像：南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA
-> 调研时间：2026-10-28。数据来源：NVIDIA 官方招聘站中国区 2027 实习季 85 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。
+> 调研时间：2026-11-08。数据来源：NVIDIA 官方招聘站中国区 2027 实习季 159 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。
 > 本文件由 `data/*.json` 自动生成，请勿手改；如需更新，请修改数据并重新构建。
 
 ## 数据源与筛选口径
 - 官网：https://jobs.nvidia.com/careers
-- 筛选口径：NVIDIA 官方招聘站中国区 2027 实习季 85 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。
+- 筛选口径：NVIDIA 官方招聘站中国区 2027 实习季 159 条，逐条读取职位详情 JD 后保留 20 条三方向岗位。
 
 ## 方向① LLM 推理优化
 
@@ -26,6 +26,15 @@
 - 内容：在 GPU/NPU 上评测并建模深度学习负载性能，定位架构、软件与系统瓶颈，面向 LLM/生成式模型提出硬件与软件优化方案。
 - 技能要点：GPU 架构、CUDA、性能建模、LLM、PyTorch、C++
 - 学历：【本科】（JD 原文：BSc. MS or PhD in relevant discipline）
+- 届别：JD 未限毕业届别；2027 实习季
+- 备注：本科及以上可投；Base 上海。
+
+### 3. Performance Engineering Intern, Deep Learning and HPC - 2027 ★★
+- 官网链接：https://jobs.nvidia.com/careers/job/893398425018
+- Base：上海 · Performance Lab
+- 内容：在 Performance Lab 对数据中心 GPU/CPU/互联与 AI 应用做基准测试和性能分析，覆盖 TensorRT-LLM/vLLM/SGLang 推理部署、训练负载与结果报告。
+- 技能要点：TensorRT-LLM、vLLM、SGLang、Python、Linux、Docker、性能测试
+- 学历：【本科】（JD 原文：Currently pursuing a bachelor's degree (or higher)）
 - 届别：JD 未限毕业届别；2027 实习季
 - 备注：本科及以上可投；Base 上海。
 
@@ -49,16 +58,7 @@
 - 届别：JD 未限毕业届别；本科/硕士/博士在读均可
 - 备注：本科可投；2027 实习季；JD 未写时长；Base 上海。
 
-### 3. Deep Learning Performance Software Intern - 2027 ★★
-- 官网链接：https://jobs.nvidia.com/careers/job/893397938475
-- Base：上海 · Deep Learning Performance – TileGym / CUDA Tile
-- 内容：开发 TileGym、Triton CUDA TileIR 后端与 CUDA Tile 的 tile-based GPU 编程和算子，做端到端性能优化、分析与调优，同时维护 SKILL、Wiki 与 agent harness。
-- 技能要点：CUDA、Triton、MLIR、C/C++、TileIR、GPU 性能分析
-- 学历：【未标注】（JD 原文：Pursuing a degree in engineering or computer science；A masters or doctoral candidate is preferred）
-- 届别：JD 未限毕业届别；2027 实习季岗位
-- 备注：JD 未硬性限定学历，但明确硕士/博士优先；本科有 CUDA/MLIR 项目可投；2027 实习季；Base 上海。
-
-### 4. Developer Technology Engineering Intern - 2027 ★★★
+### 3. Developer Technology Engineering Intern - 2027 ★★★
 - 官网链接：https://jobs.nvidia.com/careers/job/893397390526
 - Base：北京 / 上海 · Compute Developer Technology (DevTech)
 - 内容：在 DevTech 团队直接支持重点开发者，优化 LLM 训练/推理与核心并行算法，向 Megatron、TensorRT-LLM、vLLM、SGLang 等框架和开源项目贡献代码，并做 GPU kernel、指令级、编译器与 NCCL/NVSHMEM 分布式通信优化。
@@ -67,7 +67,7 @@
 - 届别：JD 未限毕业届别；本科有 GPU/LLM 项目可投
 - 备注：JD 未硬性限定学历，但明确硕士/博士优先；2027 实习季；JD 未写时长；Base 北京/上海。
 
-### 5. Software Engineer Intern, AI and DL Kernel Libraries - 2027 ★★★
+### 4. Software Engineer Intern, AI and DL Kernel Libraries - 2027 ★★★
 - 官网链接：https://jobs.nvidia.com/careers/job/893397938459
 - Base：上海 · AI and DL Kernel Libraries (cuDNN / FlashInfer)
 - 内容：参与 cuDNN、FlashInfer 等 AI 与深度学习库的 kernel、attention 实现、runtime 与 JIT/codegen 开发，优化 LLM 推理负载，并与 vLLM、SGLang 等开源推理生态协作。

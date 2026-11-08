@@ -2,7 +2,7 @@
 
 > 定位：国内 LLM 推理与 AI 编译器岗位最密集的互联网巨头，Seed、Data AML、火山方舟与 AI 芯片团队覆盖 vLLM/SGLang、CUDA 算子、KV Cache/PD 分离与 TVM/MLIR/XLA；2028 届可投的 Seed 与日常实习是首选。
 > 候选人画像：南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA
-> 调研时间：2026-10-28。数据来源：字节跳动校招官网实习列表（ByteIntern 646、日常实习 331、Seed 61、前沿技术 115，共 1153 条），按 JD 正文筛选三方向。
+> 调研时间：2026-11-08。数据来源：字节跳动校招官网实习列表（ByteIntern 646、日常实习 331、Seed 61、前沿技术 115，共 1153 条），按 JD 正文筛选三方向。
 > 本文件由 `data/*.json` 自动生成，请勿手改；如需更新，请修改数据并重新构建。
 
 ## 数据源与筛选口径
@@ -176,16 +176,7 @@
 - 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业），2028 届不可投，仅跟踪。；批次：ByteIntern
 - 备注：ByteIntern 实习，提供转正机会；面向商业化交易与广告场景。
 
-### 4. AIGC大模型优化实习生-Seed ★★
-- 官网链接：https://jobs.bytedance.com/campus/position/7641953417034746117/detail
-- Base：北京 · Seed 团队
-- 内容：负责图片/视频生成、理解生成统一模型的算法加速，优化推理效率、吞吐与资源利用率；围绕扩散/自回归模型的采样、解码、注意力计算做系统优化，并探索蒸馏、剪枝、Token 压缩。
-- 技能要点：扩散模型、自回归模型、推理加速、蒸馏、剪枝、Token 压缩、PyTorch
-- 学历：【本科】（JD 原文：2027届本科及以上学历在读）
-- 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业），2028 届不可投，仅跟踪。；批次：ByteIntern
-- 备注：ByteIntern 实习，提供转正机会；2027 届批次。
-
-### 5. AIGC模型压缩算法实习生-GenAI ★★
+### 4. AIGC模型压缩算法实习生-GenAI ★★
 - 官网链接：https://jobs.bytedance.com/campus/position/7595769684848789765/detail
 - Base：上海 · GenAI 团队
 - 内容：负责 T2V/T2I/LLM/MultiModal-LLM 的效率优化，包括蒸馏、裁剪、量化、算子优化与链路设计，打造近实时视频生成系统并落地数字人、商品视频等场景。
@@ -194,7 +185,7 @@
 - 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业），2028 届不可投，仅跟踪。；批次：ByteIntern
 - 备注：ByteIntern 实习，提供转正机会；2027 届批次。
 
-### 6. AI训推框架研发实习生-Data AML ★★
+### 5. AI训推框架研发实习生-Data AML ★★
 - 官网链接：https://jobs.bytedance.com/campus/position/7597285438249044277/detail
 - Base：北京 · Data AML（机器学习中台）
 - 内容：参与火山引擎自研训推框架 xLLM（LLM 推理）、veFuser（DiT 推理）、veOmini（训练）、veRL 的开发，做框架-平台协同设计、异构资源调度与 GPU/NPU 算子适配。
@@ -203,7 +194,7 @@
 - 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业），2028 届不可投，仅跟踪。；批次：ByteIntern
 - 备注：ByteIntern 实习，提供转正机会；2027 届批次。
 
-### 7. LLM/VLM大模型推理算子优化实习生-Data AML ★★★
+### 6. LLM/VLM大模型推理算子优化实习生-Data AML ★★★
 - 官网链接（北京）：https://jobs.bytedance.com/campus/position/7651878054633474309/detail
 - 官网链接（杭州）：https://jobs.bytedance.com/campus/position/7644512419382216965/detail
 - Base：北京 / 杭州 · Data AML（机器学习中台）
@@ -213,7 +204,7 @@
 - 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业）；JD 要求硕士及以上，本科不可投。；批次：ByteIntern
 - 备注：ByteIntern 实习，提供转正机会；要求实习 6 个月以上、每周到岗不少于 4 天。
 
-### 8. 多模态交互算法实习生 - PICO ★
+### 7. 多模态交互算法实习生 - PICO ★
 - 官网链接：https://jobs.bytedance.com/campus/position/7667129447019252021/detail
 - Base：北京 · PICO
 - 内容：研发基于视觉/语音/传感器的多模态交互与理解算法，探索端到端多模态大模型与 VLA，完成从模型训练到端侧推理部署的闭环，优化准确率、延迟与内存。
@@ -222,7 +213,7 @@
 - 届别：日常实习面向全体在校生，但 JD 要求硕士及以上，本科不可投。；批次：日常实习
 - 备注：日常实习 3 个月及以上；VLA 经历是加分项，硕士门槛。
 
-### 9. 多模态大模型优化实习生-Data AML ★★★
+### 8. 多模态大模型优化实习生-Data AML ★★★
 - 官网链接（杭州）：https://jobs.bytedance.com/campus/position/7629686699551426869/detail
 - 官网链接（深圳）：https://jobs.bytedance.com/campus/position/7599559543206807813/detail
 - Base：杭州 / 深圳 · Data AML（机器学习中台）
@@ -231,6 +222,15 @@
 - 学历：【硕士】（JD 原文：2027届硕士及以上学位在读）
 - 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业）；JD 要求硕士及以上，本科不可投。；批次：ByteIntern
 - 备注：ByteIntern 实习，提供转正机会；要求实习 6 个月以上。
+
+### 9. 大模型推理优化实习生 - Data语音 ★★
+- 官网链接：https://jobs.bytedance.com/campus/position/7702070374113102085/detail
+- Base：北京 / 上海 / 杭州 / 深圳 · Data-语音
+- 内容：构建新一代大模型推理引擎，优化语音理解/生成模型在 GPU 集群上的低延迟高吞吐部署，做 CUDA/Triton 算子、vLLM/SGLang 框架、分布式推理与量化/稀疏化。
+- 技能要点：CUDA、Triton、vLLM、SGLang、量化、稀疏化、分布式推理、C++
+- 学历：【硕士】（JD 原文：硕士及以上学位在读）
+- 届别：日常实习，JD 未限届别；批次：日常实习
+- 备注：硕士门槛；日常实习，3 个月以上；Base 北京/上海/杭州/深圳。
 
 ### 10. 大模型推理系统实习生-火山方舟 ★★
 - 官网链接（北京）：https://jobs.bytedance.com/campus/position/7600779565288950069/detail
@@ -289,37 +289,7 @@
 - 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业）；JD 要求硕士及以上，本科不可投。；批次：ByteIntern
 - 备注：ByteIntern 实习，提供转正机会；JD 明确训练/推理优化满足一条即可。
 
-### 16. 推理框架优化实习生 - Data语音 ★★★
-- 官网链接：https://jobs.bytedance.com/campus/position/7610715160324671797/detail
-- Base：北京 · Data-语音团队
-- 内容：构建新一代大模型推理引擎，优化语音理解/生成模型在 GPU 集群上的低延迟高吞吐部署；涵盖 CUDA/Triton 算子、vLLM/SGLang 框架升级、分布式推理、量化/稀疏化与 C++/Python 推理系统。
-- 技能要点：vLLM、SGLang、CUDA、Triton、TileLang、量化、稀疏化、C++
-- 学历：【本科】（JD 原文：2027届本科及以上学历在读）
-- 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业），2028 届不可投，仅跟踪。；批次：ByteIntern
-- 备注：ByteIntern 实习，提供转正机会；2027 届批次。
-
-### 17. 机器学习推理执行引擎研发实习生-Data AML ★★★
-- 官网链接（北京）：https://jobs.bytedance.com/campus/position/7602194317671532853/detail
-- 官网链接（上海）：https://jobs.bytedance.com/campus/position/7602194891721476357/detail
-- 官网链接（杭州）：https://jobs.bytedance.com/campus/position/7602196146819254533/detail
-- Base：北京 / 上海 / 杭州 · Data AML（机器学习中台）
-- 内容：负责大模型推理引擎底层架构与 GPU 全链路性能优化，通过算子融合、编译优化、Stream 异步调度提升单卡吞吐；设计 TP/PP/序列并行/MoE 专家并行等分布式推理方案。
-- 技能要点：CUDA、C++、算子融合、编译优化、TensorRT-LLM、vLLM、SGLang、TP/PP、MoE
-- 学历：【本科】（JD 原文：2027届本科及以上学历在读）
-- 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业），2028 届不可投，仅跟踪。；批次：ByteIntern
-- 备注：ByteIntern 实习，提供转正机会；北京/上海/杭州可选；2027 届批次。
-
-### 18. 机器学习推理服务框架研发实习生-Data AML ★★
-- 官网链接（北京）：https://jobs.bytedance.com/campus/position/7602171916674468101/detail
-- 官网链接（杭州）：https://jobs.bytedance.com/campus/position/7602175814595184901/detail
-- Base：北京 / 杭州 · Data AML（机器学习中台）
-- 内容：负责模型推理服务整体架构设计与落地，研发推理引擎调度、监控告警、灰度发布等核心模块，解决高并发大模型推理的性能、资源与稳定性问题。
-- 技能要点：C++、多线程、分布式服务、bRPC、gRPC、Redis、RocksDB、GPU 资源管控
-- 学历：【本科】（JD 原文：2027届本科及以上学历在读）
-- 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业），2028 届不可投，仅跟踪。；批次：ByteIntern
-- 备注：ByteIntern 实习，提供转正机会；偏推理服务架构而非 Kernel。
-
-### 19. 模型系统实习生-Data-抖音/直播/电商/剪映 ★
+### 16. 模型系统实习生-Data-抖音/直播/电商/剪映 ★
 - 官网链接（北京）：https://jobs.bytedance.com/campus/position/7594457583458650421/detail
 - 官网链接（上海）：https://jobs.bytedance.com/campus/position/7594458094315800837/detail
 - 官网链接（深圳）：https://jobs.bytedance.com/campus/position/7594458735633811717/detail
@@ -330,7 +300,7 @@
 - 届别：ByteIntern 面向 2027 届（2026-09 至 2027-08 毕业），2028 届不可投，仅跟踪。；批次：ByteIntern
 - 备注：ByteIntern 实习，提供转正机会；偏推荐模型系统，编译技术为加分项。
 
-### 20. 视觉算法实习生 - PICO ★
+### 17. 视觉算法实习生 - PICO ★
 - 官网链接：https://jobs.bytedance.com/campus/position/7698643976681982213/detail
 - Base：北京 · PICO
 - 内容：参与 XR 人机交互基建与多模态大模型研究，覆盖 VLM/Agent/长期记忆；参与多模态大模型训练、微调、评测与推理优化，包括模型压缩及端侧/云端推理效率优化。
