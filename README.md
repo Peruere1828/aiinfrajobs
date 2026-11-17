@@ -3,7 +3,7 @@
 > **在线站点**：https://peruere1828.github.io/aiinfrajobs/
 > **候选人画像**：南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA
 > **方向优先级**：① LLM 推理优化 ＞ ② AI 编译器开发 ＞ ③ 世界模型 / VLA / VLM
-> **数据更新**：2026-11-08 22:45（岗位状态以官网为准）
+> **数据更新**：2026-11-17 12:13（岗位状态以官网为准）
 > **数据源**：各公司官网招聘站 / 官方 ATS。仓库只保留展示产物，抓取与审核工具在本地运行。
 
 ## 一、Top 推荐
@@ -25,12 +25,12 @@
 
 | 指标 | 数量 |
 |---|---:|
-| 在招岗位 | 148 |
-| 本科可投（含未标注） | 148 |
-| 2028 届对口 / 不限 | 146 |
+| 在招岗位 | 149 |
+| 本科可投（含未标注） | 149 |
+| 2028 届对口 / 不限 | 147 |
 | 首推岗位 | 10 |
 | 覆盖公司 | 33 |
-| 全部条目（含跟踪 / 排除） | 274 |
+| 全部条目（含跟踪 / 排除） | 271 |
 
 ## 三、按方向速查
 
@@ -78,7 +78,7 @@ MLIR / LLVM / TVM / XLA / Triton / 图优化
 
 ### 互联网巨头
 
-- [字节跳动](companies/bytedance.html)（ByteDance）— 13 在招 / 13 本科可投
+- [字节跳动](companies/bytedance.html)（ByteDance）— 15 在招 / 15 本科可投
 - [快手](companies/kuaishou.html)（Kuaishou）— 13 在招 / 13 本科可投
 - [阿里巴巴](companies/alibaba.html)（Alibaba）— 12 在招 / 12 本科可投
 - [京东](companies/jd.html)（JD.com）— 10 在招 / 10 本科可投
@@ -86,8 +86,8 @@ MLIR / LLVM / TVM / XLA / Triton / 图优化
 - [小米](companies/xiaomi.html)（Xiaomi）— 7 在招 / 7 本科可投
 - [美团](companies/meituan.html)（Meituan）— 7 在招 / 7 本科可投
 - [滴滴](companies/didi.html)（DiDi）— 6 在招 / 6 本科可投
-- [百度](companies/baidu.html)（Baidu）— 6 在招 / 6 本科可投
 - [华为](companies/huawei.html)（Huawei）— 4 在招 / 4 本科可投
+- [百度](companies/baidu.html)（Baidu）— 4 在招 / 4 本科可投
 - [网易](companies/netease.html)（NetEase）— 2 在招 / 2 本科可投
 - [拼多多](companies/pdd.html)（PDD）— 0 在招 / 0 本科可投
 - [携程](companies/ctrip.html)（Trip.com Group）— 0 在招 / 0 本科可投
@@ -122,7 +122,7 @@ MLIR / LLVM / TVM / XLA / Triton / 图优化
 - [英伟达](companies/nvidia.html)（NVIDIA）— 9 在招 / 9 本科可投
 - [微软](companies/microsoft.html)（Microsoft）— 3 在招 / 3 本科可投
 - [高通](companies/qualcomm.html)（Qualcomm）— 3 在招 / 3 本科可投
-- [英特尔](companies/intel.html)（Intel）— 1 在招 / 1 本科可投
+- [英特尔](companies/intel.html)（Intel）— 2 在招 / 2 本科可投
 
 
 ## 五、重要时间节点

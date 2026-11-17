@@ -2,12 +2,12 @@
 
 > 定位：可灵 AI 带来密集的视频生成/多模态推理系统岗位，覆盖推理框架、Model Serving、GPU 调度与 AIGC 推理引擎，多个岗位明确本科可投。
 > 候选人画像：南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA
-> 调研时间：2026-11-08。数据来源：快手招聘官网社招/实习职位接口（recruitProjectCode=socialr）抓取 363 条，逐条按 JD 正文筛选三方向；本文件仅保留实习岗位，链接为官网实习职位详情页。
+> 调研时间：2026-11-17。数据来源：快手招聘官网实习批次 334 条，按 JD 正文筛选三方向；链接规则 zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/{id}。
 > 本文件由 `data/*.json` 自动生成，请勿手改；如需更新，请修改数据并重新构建。
 
 ## 数据源与筛选口径
 - 官网：https://zhaopin.kuaishou.cn/recruit/e/#/official/trainee/
-- 筛选口径：快手招聘官网社招/实习职位接口（recruitProjectCode=socialr）抓取 363 条，逐条按 JD 正文筛选三方向；本文件仅保留实习岗位，链接为官网实习职位详情页。
+- 筛选口径：快手招聘官网实习批次 334 条，按 JD 正文筛选三方向；链接规则 zhaopin.kuaishou.cn/recruit/e/#/official/trainee/job-info/{id}。
 
 ## 方向① LLM 推理优化
 

@@ -2,12 +2,23 @@
 
 > 定位：Intel 中国实习以编译器与 AI GPU 架构性能为主；LLVM/MLIR/Triton 编译器与 GPU kernel profiling 岗本科可投，是方向②的稳妥选择。
 > 候选人画像：南京大学 CS 本科（2028-06 毕业），熟悉 vLLM / MLIR / CUDA
-> 调研时间：2026-11-08。数据来源：Intel Workday 公开 API 中国区实习岗，逐个校验 jobPostingInfo 后保留 3 条三方向岗位。
+> 调研时间：2026-11-17。数据来源：Intel Workday 公开 API 中国区岗位，逐个校验 jobPostingInfo 后保留 3 条三方向岗位。
 > 本文件由 `data/*.json` 自动生成，请勿手改；如需更新，请修改数据并重新构建。
 
 ## 数据源与筛选口径
 - 官网：https://intel.wd1.myworkdayjobs.com/en-US/External
-- 筛选口径：Intel Workday 公开 API 中国区实习岗，逐个校验 jobPostingInfo 后保留 3 条三方向岗位。
+- 筛选口径：Intel Workday 公开 API 中国区岗位，逐个校验 jobPostingInfo 后保留 3 条三方向岗位。
+
+## 方向① LLM 推理优化
+
+### 1. AI GPU Arch Perf Analysis Intern ★★
+- 官网链接：https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Beijing/AI-GPU-Arch-Perf-Analysis-Intern_JR0288972
+- Base：北京 · GPU Compute Architecture
+- 内容：在 Intel GPU 计算架构团队做 AI workload 的 GPU kernel 性能分析，覆盖 GEMM/Attention/算子融合优化、推理与训练负载复现、profiling 瓶颈定位与性能模型。
+- 技能要点：CUDA、Triton、GPU 架构、性能分析、Python、并行计算
+- 学历：【本科】（JD 原文：Currently pursuing a Bachelor's, Master's, or PhD degree）
+- 届别：JD 未限毕业届别；2026-11-11 发布
+- 备注：本科及以上可投；Job Type: Student/Intern；Base 北京。
 
 ## 方向② AI 编译器开发
 
@@ -22,16 +33,7 @@
 
 ## 跟踪 / 博士 / 排除（本科暂不可投）
 
-### 1. AI Software Development Engineer ★★
-- 官网链接：https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Software-Development-Engineer_JR0288943
-- Base：上海 · CAIGC – On-device AI
-- 内容：面向 PC 与端侧设备做 LLM/VLM、图像/视频生成模型和 AI Agent 的端侧部署，开发推理 pipeline、媒体编解码与自动化工具，并与模型团队做软硬协同优化。
-- 技能要点：Python、C/C++、PyTorch、OpenVINO、ONNX Runtime、量化、蒸馏、LoRA
-- 学历：【硕士】（JD 原文：Master's or PhD degree (exceptional bachelor candidates are also welcome)）
-- 届别：JD 未限毕业届别；硕士/博士为主，本科需特别优秀；批次：日常实习
-- 备注：全职岗（非实习）；硕士/博士，优秀本科可放宽；2026-11-05 发布；Base 上海。
-
-### 2. AI Software Engineer Intern ★★
+### 1. AI Software Engineer Intern ★★
 - 官网链接：https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261
 - Base：上海 · AI Agent Systems
 - 内容：研发并优化 AI Agent runtime、agent kernel 与任务执行框架，做大规模负载的性能剖析和瓶颈定位；要求理解 PyTorch/TorchDynamo/Inductor 及 LLM 推理流程（KV Cache、prefill/decode）。
@@ -43,3 +45,4 @@
 ## 优先级建议
 
 1. **Compiler Engineering Intern** — Compiler Engineering Intern · 上海 · 本科 / 在校生 / 不限
+2. **AI GPU Arch Perf Analysis Intern** — AI GPU Arch Perf Analysis Intern · 北京 · 本科 / 在校生 / 不限
